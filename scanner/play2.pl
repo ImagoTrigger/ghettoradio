@@ -220,13 +220,13 @@ sub doplay {
 	}
 	return 0 if (!-e $key);
 	print "Playing $key ($skey bytes)\n";	 		
-	$win->Text($"TO:$to FROM:$from");
+	$win->Text("TO:$to FROM:$from");
 	my $skey = -s $key;
 	my $logside = "BOTH";
 	if ($volL == 0 && $volR == 100) { $logside = "RIGHT"}
 	if ($volL == 100 && $volR == 0) { $logside = "LEFT"}
 	open(LOG,">>R:\\scanner\\altacast\\stream.log");
-	print LOG "[$logside] TO:$to FROM:$from ($skey bytes)@ ".strftime("%H%M%S", localtime)."\n";
+	print LOG "[$logside] TO:$to FROM:$from ($skey bytes) @ ".strftime("%H%M%S", localtime)."\n";
 
 	my $winmm = new Win32::MediaPlayer;
 	my $wut = $winmm->load($key);
