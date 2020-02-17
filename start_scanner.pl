@@ -90,6 +90,13 @@ system("start /BELOWNORMAL /MIN /D R:\\scanner R:\\scanner\\router.bat");
 
 system('start /D R:\\scanner\\nginx R:\\scanner\\nginx\\nginx.exe');
 system('start /D R:\\scanner fcgid.bat');
+
+open(PASS,"R:\\scanner\\key1.txt");
+my $key1 = <PASS>;
+close PASS;
+open(PASS,"R:\\scanner\\key2.txt");
+my $key2 = <PASS>;
+close PASS;
 system("curl http://sync.afraid.org/u/$key1/");
 system("curl http://sync.afraid.org/u/$key2/");
 
