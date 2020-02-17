@@ -1,0 +1,211 @@
+IMPORTANT: This is a beta version of RTL1090.
+Functionality is experimental and partially incomplete yet.
+Please use at your own risk.
+Retain the release that is working for you as a backup copy.
+
+Build 161 - 25/03/15 - "RTL1090 V3 SCOPE"
+Service release
+
+============================================================================
+Build 153 - 15/03/14 - "RTL1090 V3 SCOPE"
+
+a) This update is provided to make RTL1090 even more robust against false and
+fake targets.
+
+b) also a formatting nuisance was corrected, whereas in the Flight Table the
+appearance of DF17 type 28,30 or 31 markers was confusing the format.
+The appearance of said DF17 transmissions will be marked as follows from now on:
+     28  30  31
+" "
+"1"  x
+"2"      x
+"3"  x   x
+"4"          x
+"5"  x       x
+"6"      x   x
+"7"  x   x   x
+
+The most popular indication for very new DO-260B compatible airplanes
+these days is "4" which indicates that the aircraft has sent a type 31 packet,
+but no type 28 or 30 packets.
+
+c) Wind direction and speed as shown in the flight strip is subject to availability
+of a correct local magnetic declination or variation. The local data can be entered
+from a new slider on the CONFIG page. There is a link to an internet page,
+too, that can provide your local variation data.
+
+d) A link on the frontpage provides direct access to the RTL1090
+internet homepage.
+
+============================================================================
+Build 152 - 14/03/14 - "RTL1090 V3 SCOPE"
+
+This is just a small service update with the following items resolved and still open:
+
+(RESOLVED) In the table view mode, I always have a red written line, beginning
+ with an ICAO that never change : F1B77E. The other datas of the line are
+ changing randomly, but always with flights datas that are really received
+ (screen shot available if you need).
+ (Only seen in or close to France and Canada (Quebec?), anybody else?)
+
+(RESOLVED) Another small bug is a missing grid for western longitudes as can
+be seen on the attached picture.
+
+(UNCHANGED - the app starts at the last saved location. If it sits elsewhere
+and you have aircraft reception just click into the map to re-center) I input
+my location before clicking Start, and yet I found myself looking at Europe
+when launching the scope; can the software automatically start
+with the scope entered at my location?
+
+(RESOLVED) Also, I see that - like Globe-S - I can put a basestation.sqb file
+in the rtl1090 folder for the software to read. I run multiple virtual radar
+apps, as I'm sure others do, so I'm wondering if you're software could instead
+ask for a reference to a basestation.sqb rather than requiring a copy. Multiple
+dbs are more difficult to maintain.
+
+(RESOLVED) a) My location in geographical coordinates are incorrect in the
+scope screen, depicting a S (for south) figure while should be a
+W (for Western) latitude.
+
+(RESOLVED) Database field not showing registrations.
+
+(RESOLVED - there is an option in the OPTIONS dialog) This suggests a reversal
+of the sense for the roller wheel routine in RTL1090 would bring it in line
+with the usage for Google Maps and other things like photographs.
+
+(RESOLVED) - one komma missing in MSG,7,111,11111,39CA8D,111111,2014/01/07,
+05:42:42.000,2014/01/07,05:42:42.000,,35975,,,,,,,,,0
+
+(RESOLVED) - - In the "Stats" tab the Uptime running time is expressed in
+milliseconds, I often leave my system for days without a single reboot
+(Lucky windoze user guy), and the milliseconds count is a larger figure
+difficult so ingest after certain amount of time, could be possible to show
+the Uptime in a more "human readable" manner, such as Days, hours, minutes
+and seconds count?
+
+(NEW) - Option added to surpress no position flights in the flight table.
+This was requested by US users.
+
+============================================================================
+Build 151 - 11/01/14 - "RTL1090 V3 SCOPE"
+
+- SQL access to MANTMA Basestation.SQB
+- Basestation.sqb directory can be edited in rtl1090.ini | SQL | basestation_dir
+
+Thanks to Denis for letting me the field tables.
+
+============================================================================
+Build 150 - 04/01/14 - "RTL1090 V3 SCOPE"
+
+- Resolved: AGC was always set to ON after start
+
+- NOT RESOLVED: Ground position errors Western and other longitudes
+
+A "primitive" scope was added
+The intention of this scope is not to substitute other more sophisticated
+applications but to have a quick overview when mobile or in an airplane.
+
+Scope graphics are not programmed with any accelerated means (DirectX or OpenGL)
+and therefore may be rather slow on some computers.
+
+Scope display may reduce the data rate of your ADS-B reception due to system
+load on slow computers.
+
+The beta release comes with a set of global outlines and waypoints files.
+The final version will make the display of user defined files available.
+
+A "basestation.sqb" can be connected to RTL1090 Scope, if it is present on
+program start in the RTL1090 folder. RTL1090 will display aircraft data in the
+flight strip if there is match with the ICAO ID.
+The database is NOT part of the package. If you do not have one, please go to
+the typical suspicious sites on the internet as
+http://pp-sqb.mantma.co.uk/
+
+Instructions:
+copy files into your existing RTL1090 folder and execute rtl1090.beta3.exe
+
+Scope instructions
+==================
+
+Mouse:
+- left click on empty area:
+-- if no flightstrip shown: centers scope on the unweighted center of local flight
+positions, i.e. whereever your map is pointing to, it will shift to the
+active area
+-- if flightstrip is shown: hides flightstrip
+- hover over flight: shows flightstrip
+- left click on flight: shows and holds flightstrip
+- SHIFT or ALT or CTL+left click on flight: centers scope on flight and
+shows flightstrip
+- left click on home position or right click: centers on home position
+- left click/hold/release - pan scope
+
+============================================================================
+Build 103 - 13/10/13 -
+
+- FEC switch added to configuration and off by default
+
+============================================================================
+Build 102 - 27/06/13 - 
+
+- Decoder improved by brute force 1-bit error correction and brute force
+ DF11 and DF17 override for unknown DFs. This may be tough stuff
+for slow computers. If your computer slows down considerably return
+to a previous version please.
+
+- Tabs introduced - List/Table selection moved to Tabs.
+- Stats tab added: this brings back the previous status bar info about USB
+packets per second.
+
+- II/SI tab added. This tab adds the ability to quickly scan the Mode-S
+interrogator codes around. A "radar1090.txt" file can be added to the
+rtl1090 folder that holds II/SI code decodings. A sample file is attached.
+The II/SI collection can be reset by a right mouse click action.
+The recently seen codes and the last aircraft responding with that
+code are displayed in red onwhite.
+
+- Context menu (right mouse click) for text window, "listhold" established
+by menu selection, revoked by mouse click
+
+============================================================================
+Build 101 - 20/05/2013
+
+- GUI completely refurbished. Program window height can be altered and switches
+are hidden by default. This makes the GUI more space efficient (and it looks
+better)
+
+- In status line: USB packet indicator (packets/s) changed to queue cycle
+time (ms). The queue cycle time must stay below 300 ms for
+lossless processing.
+
+- Packet rate LEDs show all red when it appears that a USB data frame
+ was lost. This is in preparation for work on better MLAT accuracy.
+
+- Avg. Signal Strength (SG) and Message count (MSGS) added to flight table.
+Avg. Signal Strength is normalized to 100% (max 99%).
+Color codes are yellow (you can hear it), orange (you can see it),
+red (you can touch it).
+
+- Default display order in flight table changed. Newest flights are at top
+for compatibility with DUMP1090 (not completely working yet)
+
+- CONFIG dialog: some commmand line options can be selected from the dialog.
+Command line entries are still valid and do override any selections.
+If overriding occurs entries are printed in bold, but boxes may not be checked,
+so the override conditions will not be saved to the configuration file.
+
+- Update alert: when a new version is available an update sign appears in the
+caption bar - no further functions yet
+
+============================================================================
+Outstanding committs:
+
+- Start with Windows and Resume from hibernate/standby
+- DO260 A/B and signal strength processing for HTTP server
+- Improve Mode-S and Mode A/C decoder
+- Complete autoupdate
+- Log file selection from config dialog
+- MLAT counter accuracy
+- Renovate SISEX design
+- flight table order
+- restore window Son correct display

@@ -1,0 +1,19 @@
+<iconset default="No Icon">
+  <icon name="Dump Truck" path="images/dump_truck_red.png"/>
+  <icon name="Van" path="images/van.png"/>
+  <icon name="Fire Truck" path="images/fire_truck.png"/>
+  <icon name="Loader" path="images/loader.png"/>
+  <icon name="School Bus" path="images/school_bus.png"/>
+  <icon name="Dispatcher" path="images/dispatcher.png"/>
+  <icon name="Police" path="images/police.png"/>
+  <icon name="No Icon" path="images/no_icon.png"/>
+  <icon name="CWID" path="images/cwid.png"/>
+  <icon name="Block Truck" path="images/concrete_block_truck.png"/>
+  <icon name="Ambulance" path="images/ambulance.png"/>
+  <icon name="Transport Bus" path="images/opt_bus.png"/>
+  <icon name="Rescue Truck" path="images/rescue_truck.png"/>
+  <icon name="Propane Truck" path="images/propane_truck.png"/>
+  <icon name="Taxi" path="images/taxi.png"/>
+  <icon name="Garbage Truck" path="images/garbage_truck.png"/>
+  <icon name="Train" path="images/train.png"/>
+</iconset>

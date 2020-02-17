@@ -1,0 +1,1 @@
+python mlat-client  --input-type dump1090 --input-connect localhost:30005 --lat 45.135880 --lon -93.170720 --alt 800ft --user imago --server feed.adsbexchange.com:31090 --no-udp --results beast,connect,localhost:30104

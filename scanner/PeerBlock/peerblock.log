@@ -1,0 +1,9 @@
+
+
+--------------------------------------------------------------------------------
+
+Logging Started...
+[2/16/2020] [21:01:12.310] [05864]  [TraceLog] [StartLogging]    starting logging
+[2/16/2020] [21:01:12.310] [05864]  [mainproc] [Main_ProcessDb]    Deleted history.db and peerblock.log files
+[2/16/2020] [21:01:12.310] [05864]  [mainproc] [Main_ProcessDb]    done with 'delete' type cleanup
+[2/16/2020] [21:01:12.310] [05864]  [mainproc] [Main_ProcessDb]  < Leaving routine.

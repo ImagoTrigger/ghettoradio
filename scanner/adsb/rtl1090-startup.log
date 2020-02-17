@@ -1,0 +1,41 @@
+RTL1090 V 3.0.4.161
+Started at: 9/2/2018 3:34:16 PM (UTC)
+==========================================
+RTL1090 V 3.0.4.161 (c) jetvision.de 2013
+==========================================
+Command line: 
+
+airports1090.dat - 13053 datasets loaded
+
+navaids1090.dat - 10890 datasets loaded
+
+world1090.dat - 238384 datasets loaded
+
+"basestation.sqb" loaded
+
+No RTL1090 3rd party plug-ins found.
+
+Started...
+1 RTLSDR device(s) found.
+Device: Generic RTL2832U OEM
+TCP server port opened: 31001
+UDP receiver port opened: 31002
+Port 30003 type TCP server opened: 31004
+HTTP server port opened: 31008
+UDP target is: 127.0.0.1:31012
+Device opened: "176390320"
+** Manufacturer: Realtek
+** Product:      RTL2838UHIDIR2
+** Serial:       3
+Tuner type: "R820T"
+RTL Xtal Freq:   "28800000 Hz"
+TUNER Xtal Freq: "28800000 Hz"
+Gains: 0,9,14,27,37,77,87,125,144,157,166,197,207,229,254,280,297,328,338,364,372,386,402,421,434,439,445,480,496
+Cannot find gain. Gain adjusted to: 22.9 dB
+Gain: 22.9 dB
+Sample rate: 2000000 S/s
+Tuner gain set to AUTO
+RTL AGC set ON
+Freq correction: 0 ppm
+Freq set: "1090000000 Hz"
+Buffer cleared

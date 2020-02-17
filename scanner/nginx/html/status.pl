@@ -1,0 +1,40 @@
+use strict;
+use CGI;
+use File::ReadBackwards;
+
+my $q = new CGI;
+print $q->header;
+
+my $bw = File::ReadBackwards->new( "R:\\scanner\\altacast\\sensor.log" ) or die "can't read 'log_file' $!" ;
+my $log_line = $bw->readline;
+$bw->close;
+my ($time,$temp,$memused) = split(',',$log_line);
+$time =~ s/\s$//gi;
+$temp =~ s/\s//gi;
+$memused =~ s/\s//gi;
+my $bw = File::ReadBackwards->new( "R:\\scanner\\altacast\\router.log" ) or die "can't read 'log_file' $!" ;
+my $log_line = $bw->readline;
+$bw->close;
+my ($rx,$tx) = split(',',$log_line);
+my $bw = File::ReadBackwards->new( "R:\\scanner\\altacast\\count.log" ) or die "can't read 'log_file' $!" ;
+my $count = $bw->readline;
+$count =~ s/\s//gi;
+$bw->close;
+my $bw = File::ReadBackwards->new( "R:\\scanner\\altacast\\length.log" ) or die "can't read 'log_file' $!" ;
+my $length = $bw->readline;
+$length =~ s/\s//gi;
+$bw->close;
+my $bw = File::ReadBackwards->new( "R:\\scanner\\altacast\\ups.log" ) or die "can't read 'log_file' $!" ;
+my $ups = $bw->readline;
+$ups =~ s/\s//gi;
+$bw->close;
+my $bw = File::ReadBackwards->new( "R:\\scanner\\altacast\\402.txt" ) or die "can't read 'log_file' $!" ;
+my $anokatsbs = $bw->readline;
+$anokatsbs =~ s/\s//gi;
+$bw->close;
+my $bw = File::ReadBackwards->new( "R:\\scanner\\altacast\\40D.txt" ) or die "can't read 'log_file' $!" ;
+my $ramseytsbs = $bw->readline;
+$ramseytsbs =~ s/\s//gi;
+$bw->close;
+
+print "$time,$temp,$memused,$count,$length,$ups,$rx,$tx,$anokatsbs,$ramseytsbs\n";

@@ -1,0 +1,17 @@
+<SDRTrunk_settings>
+  <tuner_configuration type="r820TTunerConfiguration" sample_rate="RATE_2_560MHZ" frequency_correction="30.0" mixer_gain="AUTOMATIC" lna_gain="AUTOMATIC" master_gain="AUTOMATIC" vga_gain="GAIN_312" auto_ppm_correction_enabled="false" name="New" unique_id="00000001" frequency="852138284" assigned="true"/>
+  <tuner_configuration type="r820TTunerConfiguration" sample_rate="RATE_2_560MHZ" frequency_correction="-1.3" mixer_gain="GAIN_63" lna_gain="GAIN_165" master_gain="GAIN_228" vga_gain="GAIN_210" auto_ppm_correction_enabled="true" name="New" unique_id="1" frequency="852440832" assigned="true"/>
+  <tuner_configuration type="r820TTunerConfiguration" sample_rate="RATE_2_560MHZ" frequency_correction="-0.1" mixer_gain="GAIN_139" lna_gain="GAIN_281" master_gain="GAIN_420" vga_gain="GAIN_210" auto_ppm_correction_enabled="true" name="New" unique_id="2" frequency="851262402" assigned="true"/>
+  <tuner_configuration type="r820TTunerConfiguration" sample_rate="RATE_2_560MHZ" frequency_correction="0.0" mixer_gain="GAIN_105" lna_gain="GAIN_222" master_gain="GAIN_327" vga_gain="GAIN_210" auto_ppm_correction_enabled="true" name="New" unique_id="3" frequency="851262500" assigned="true"/>
+  <tuner_configuration type="airspyTunerConfiguration" sample_rate="6000000" frequency_correction="-1.25" mixer_agc="false" gain="LINEARITY_18" mixer_gain="7" lna_agc="false" if_gain="11" lna_gain="10" name="New" unique_id="685C68DC-317D4443" frequency="853787500" assigned="true"/>
+  <tuner_configuration type="r820TTunerConfiguration" sample_rate="RATE_2_560MHZ" frequency_correction="0.0" mixer_gain="GAIN_105" lna_gain="GAIN_222" master_gain="GAIN_327" vga_gain="GAIN_210" auto_ppm_correction_enabled="true" name="New" unique_id="4764168867" frequency="851989852" assigned="true"/>
+  <setting type="mapViewSetting" zoom="7" longitude="-76.147" latitude="43.048" name="Default"/>
+  <setting type="colorSetting" alpha="255" colorSettingName="SPECTRUM_BACKGROUND" rgb="#000000"/>
+  <setting type="colorSetting" alpha="128" colorSettingName="SPECTRUM_GRADIENT_BOTTOM" rgb="#00ff00"/>
+  <setting type="colorSetting" alpha="128" colorSettingName="SPECTRUM_GRADIENT_TOP" rgb="#ffffff"/>
+  <setting type="colorSetting" alpha="128" colorSettingName="SPECTRUM_LINE" rgb="#c0c0c0"/>
+  <setting type="colorSetting" alpha="60" colorSettingName="CHANNEL_CONFIG" rgb="#c0c0c0"/>
+  <setting type="colorSetting" alpha="60" colorSettingName="CHANNEL_CONFIG_PROCESSING" rgb="#00ff00"/>
+  <setting type="colorSetting" alpha="60" colorSettingName="CHANNEL_CONFIG_SELECTED" rgb="#0000ff"/>
+  <setting type="colorSetting" alpha="255" colorSettingName="SPECTRUM_CURSOR" rgb="#ffc800"/>
+</SDRTrunk_settings>

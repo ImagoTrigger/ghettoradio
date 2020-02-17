@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>stream status</title>
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript" src="smoothie.js"></script>
+        <script type="text/javascript" src="logtail_anoka.js"></script>
+        <script type="text/javascript" src="logtail_ramsey.js"></script>
+        <link href="logtail.css" rel="stylesheet" type="text/css">
+        <style>
+            div.smoothie-chart-tooltip {
+              background: #444;
+              padding: 1em;
+              margin-top: 20px;
+              font-family: consolas;
+              color: white;
+              font-size: 10px;
+              pointer-events: none;
+            }
+            </style>
+        </head>
+        <body>
+            <!--
+            <input type="hidden" id="CIN">
+            <input type="hidden" id="COUT">
+            <input type="hidden" id="PIN">
+            <input type="hidden" id="POUT">
+             -->
+            <input type="hidden" id="TIME">
+            <input type="hidden" id="TEMP">
+
+            <input type="hidden" id="MEMUSED">
+            
+            <input type="hidden" id="COUNT">
+            <input type="hidden" id="LENGTH">
+            
+            <input type="hidden" id="RX">
+            <input type="hidden" id="TX">
+
+            <input type="hidden" id="ANOKATSBS">
+            <input type="hidden" id="RAMSEYTSBS">
+
+            <input type="hidden" id="ONBATT">
+            <script>
+            function httpGetAsync(theUrl, callback)
+                {
+                    var xmlHttp = new XMLHttpRequest();
+                    xmlHttp.onreadystatechange = function() {
+                        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+                            callback(xmlHttp.responseText);
+                    }
+                    xmlHttp.open("GET", theUrl, true); // true for asynchronous
+                    xmlHttp.send(null);
+                }
+                
+                setInterval(function() {
+                    httpGetAsync("status.pl",function(response) {
+                        var res = response.split(',');
+                        document.getElementById("TIME").value = res[0];
+                        document.getElementById("TEMP").value = res[1];
+                        document.getElementById("MEMUSED").value = res[2];
+                        document.getElementById("COUNT").value = res[3];
+                        document.getElementById("LENGTH").value = res[4];
+                        document.getElementById("ONBATT").value = res[5];
+                        document.getElementById("RX").value = res[6];
+                        document.getElementById("TX").value = res[7];
+                        document.getElementById("ANOKATSBS").value = res[8];
+                        document.getElementById("RAMSEYTSBS").value = res[9];
+                    })
+                    if (document.getElementById("ONBATT").value == 1) {
+                        document.getElementById("batt").src = "1.png";
+                    } else {
+                        document.getElementById("batt").src = "0.png";
+                    }
+                }, 1500);
+                </script>
+<table style="width: 100%; border-collapse: collapse;" border="0">
+    <tbody>
+      <tr>
+        <td valign="top" style="height: 160px;"><center><img id="batt" height="30"><br/>
+            <a border=1 href=rtsp://scan:logic!@scanner.bad.mn:8003/play2.sdp><img id="frontcam" border=0 alt="Front" src=/live2/image/jpeg.cgi height=65></a><a border=1 href=cam3.html><img id="backcam" border=0 alt="Back" src=/live3/shot.jpg height=65></a></center></td>
+        <td style="width: 20%;"><center><b>CPU Temp (&#8457;)</b><canvas id="temp" height="150"></canvas></center></td>
+        <td style="width: 20%;"><center><b>RAM Used (Bytes)</b><canvas id="mem" height="150"></canvas></td>
+        <td style="width: 20%;"><center><b>Calls Queued/<font color="#0000FF">Minutes Behind</font></b><canvas id="stream" height="150"></canvas></td>
+        <td style="width: 20%;"><center><b>Router RX/<font color="#0000FF">TX (Bytes/Second)</font></b><canvas id="router" height="150"></canvas></td>
+        <td style="width: 20%;"><center><b>Anoka/<font color="#0000FF">Ramsey TSBKs/Second</font></b><canvas id="signal" height="150"></canvas></td>
+      </tr>
+    </tbody>
+  </table>
+  <table style="width: 100%; border-collapse: collapse;" border="0">
+    <tbody>
+      <tr>
+        <td valign="top" style="width: 30%;" nowrap><center><b>Stream Log</b></center><br/><font size=-1><div id="streamlog"></div></font></td>
+        <td valign="top" style="width: 35%;" nowrap><center><b>Anoka Events</b></center><br/><div id="anokalog"></div></td>
+        <td valign="top" style="width: 35%;" nowrap><center><b>Ramsey Events</b></center><br/><div id="ramseylog"></div></td>
+      </tr>
+    </tbody>
+  </table>
+<script>               
+    var routersmoothie = new SmoothieChart({millisPerPixel:50,grid:{fillStyle:'#ffffff',strokeStyle:'rgba(119,119,119,0.16)',sharpLines:true},labels:{fillStyle:'#000000',fontSize:10,precision:4},tooltip:true,limitFPS:15,minValue:0,maxValue:3000});
+    var routerline1 = new TimeSeries();
+    var routerline2 = new TimeSeries();
+    setInterval(function() {
+        routerline1.append(new Date().getTime(), document.getElementById("RX").value);
+        routerline2.append(new Date().getTime(), document.getElementById("TX").value);
+    }, 1000);
+    routersmoothie.addTimeSeries(routerline1,{lineWidth:1.8,strokeStyle:'#000000'});
+    routersmoothie.addTimeSeries(routerline2,{lineWidth:1.8,strokeStyle:'#0000ff'});
+    routersmoothie.streamTo(document.getElementById("router"),1000);
+
+    var tempsmoothie = new SmoothieChart({millisPerPixel:50,grid:{fillStyle:'#ffffff',strokeStyle:'rgba(119,119,119,0.16)',sharpLines:true},labels:{fillStyle:'#000000',fontSize:10,precision:4},tooltip:true,limitFPS:15,minValue:0,maxValue:185});
+    var templine1 = new TimeSeries();
+    setInterval(function() {
+        templine1.append(new Date().getTime(), document.getElementById("TEMP").value);
+    }, 1000);
+    tempsmoothie.addTimeSeries(templine1,{lineWidth:1.8,strokeStyle:'#000000',fillStyle:'rgba(0,0,0,0.30)'});
+    tempsmoothie.streamTo(document.getElementById("temp"),1000);
+
+    var memsmoothie = new SmoothieChart({millisPerPixel:50,grid:{fillStyle:'#ffffff',strokeStyle:'rgba(119,119,119,0.16)',sharpLines:true},labels:{fillStyle:'#000000',fontSize:10,precision:4},tooltip:true,limitFPS:15,minValue:0,maxValue:16000});
+    var memline1 = new TimeSeries();
+    setInterval(function() {
+        memline1.append(new Date().getTime(), document.getElementById("MEMUSED").value);
+    }, 1000);
+    memsmoothie.addTimeSeries(memline1,{lineWidth:1.8,strokeStyle:'#000000',fillStyle:'rgba(0,0,0,0.30)'});
+    memsmoothie.streamTo(document.getElementById("mem"),1000);
+
+    var streamsmoothie = new SmoothieChart({millisPerPixel:50,grid:{fillStyle:'#ffffff',strokeStyle:'rgba(119,119,119,0.16)',sharpLines:true},labels:{fillStyle:'#000000',fontSize:10,precision:4},tooltip:true,limitFPS:15,minValue:0});
+    var streamline1 = new TimeSeries();
+    var streamline2 = new TimeSeries();
+    setInterval(function() {
+        streamline1.append(new Date().getTime(), document.getElementById("COUNT").value);
+        streamline2.append(new Date().getTime(), document.getElementById("LENGTH").value);
+    }, 1000);
+    streamsmoothie.addTimeSeries(streamline1,{lineWidth:1.8,strokeStyle:'#000000'});
+    streamsmoothie.addTimeSeries(streamline2,{lineWidth:1.8,strokeStyle:'#0000ff',fillStyle:'rgba(0,0,0,0.30)'});
+    streamsmoothie.streamTo(document.getElementById("stream"),1000);
+
+    var signalsmoothie = new SmoothieChart({millisPerPixel:50,grid:{fillStyle:'#ffffff',strokeStyle:'rgba(119,119,119,0.16)',sharpLines:true},labels:{fillStyle:'#000000',fontSize:10,precision:4},tooltip:true,limitFPS:15,minValue:0,maxValue:45});
+    var signalline1 = new TimeSeries();
+    var signalline2 = new TimeSeries();
+    setInterval(function() {
+        signalline1.append(new Date().getTime(), document.getElementById("ANOKATSBS").value);
+        signalline2.append(new Date().getTime(), document.getElementById("RAMSEYTSBS").value);
+    }, 1000);
+    signalsmoothie.addTimeSeries(signalline1,{lineWidth:1.8,strokeStyle:'#000000'});
+    signalsmoothie.addTimeSeries(signalline2,{lineWidth:1.8,strokeStyle:'#0000ff'});
+    signalsmoothie.streamTo(document.getElementById("signal"),1000);
+
+    setInterval(function() {
+                    httpGetAsync("stream.pl?340",function(response) {
+                        document.getElementById("streamlog").innerHTML = response;
+                    })
+                    document.getElementById("backcam").src = "/live3/shot.jpg?" + new Date().getTime();
+                    document.getElementById("frontcam").src = "/live2/image/jpeg.cgi?"+ new Date().getTime();
+                }, 1500);
+</script>
+</body>
+</html>
+

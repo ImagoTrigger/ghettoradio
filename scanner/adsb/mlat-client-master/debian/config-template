@@ -1,0 +1,45 @@
+## TEMPLATE FILE - This is used to create /etc/default/mlat-client ##
+## The first three lines will be discarded                         ##
+
+# mlat-client configuration file
+# This is a POSIX shell fragment.
+# You can edit this file directly, or use
+# "dpkg-reconfigure mlat-client"
+
+# Start the client?
+START_CLIENT=
+
+# System user to run as.
+RUN_AS_USER=
+
+# User to log into the server as
+SERVER_USER=
+
+# Logfile to log to
+LOGFILE=
+
+# Input receiver type (dump1090, beast, radarcape_12mhz, radarcape_gps, sbs)
+INPUT_TYPE=
+
+# Input host:port to connect to for Beast-format messages
+INPUT_HOSTPORT=
+
+# Multilateration server host:port to provide data to
+SERVER_HOSTPORT=
+
+# Latitude of the receiver, in decimal degrees
+LAT=
+
+# Longitude of the receiver, in decimal degrees
+LON=
+
+# Altitude of the receiver, in metres
+ALT=
+
+# List of result connections/listeners to establish.
+# This should be a space-separated list of values suitable for passing to
+# the --results option (see mlat-client --help for syntax)
+RESULTS=
+
+# Other arguments to pass to mlat-client
+EXTRA_ARGS=

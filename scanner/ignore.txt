@@ -1,0 +1,963 @@
+0004	SYS TECH 4 System Technicians - ENC
+0039	EMSAIRCOM Helicopter Communication Centers Common
+0040	SYS TECH 40 System Technicians - ENC
+0098	CS SEC MAIN Capitol Security Main
+0174	DOC TR 1 Transportation Unit 1 Main
+0176	DOC TR 2 Transportation Unit 2 Security
+0178	DOC LL OP1 MCF Lino Lakes Main Operations
+0180	DOC LL OP2 MCF Lino Lakes Local Maintenance
+0185	MCF Lino 185 MCF Lino Lakes
+0215	MCF Lino 215 MCF Lino Lakes
+0217	MCF Lino 217 MCF Lino Lakes
+0219	MCF Lino 219 MCF Lino Lakes
+0204	CS ALL CALL Capitol Security All Call
+0207	DOC LL ICS MCF Stillwater Incident Command (ICS)
+0208	DOT 1 CMO Central Management Office
+0222	DOT OEC2 ADM OEC 2 Admin
+0224	DOT OEC3 SHP OEC 3 Shop
+0226	DOT OEC4 OFC OEC 4 Office Admin
+0228	DOT OEC5 ADM OEC 5 Admin
+0230	DOT SURV ALL Survey Crew All Call
+0232	DOT SURVY 1 Survey Crew TG 1
+0234	DOT SURVY 2 Survey Crew TG 2
+0236	DOT SURVY 3 Survey Crew TG 3
+0238	DOT SURVY 4 Survey Crew TG 4
+0240	DOT SURVY 5 Survey Crew TG 5
+0242	DOT SURVY 6 Survey Crew TG 6
+0244	DOT SURVY 7 Survey Crew TG 7
+0246	DOT SURVY 8 Survey Crew TG 8
+0248	DOT SURVY 9 Survey Crew TG 9
+0250	DOT SURVY 10 Survey Crew TG 10
+0252	DOT SURVY 11 Survey Crew TG 11
+0254	DOT SURVY 12 Survey Crew TG 12
+0256	DOT SURVY 13 Survey Crew TG 13
+0258	DOT SURVY 14 Survey Crew TG 14
+0260	DOT SURVY 15 Survey Crew TG 15
+0262	DOT SURVY 16 Survey Crew TG 16
+0264	DOT SURVY 17 Survey Crew TG 17
+0266	DOT SURVY 18 Survey Crew TG 18
+0268	DOT SURVY 19 Survey Crew TG 19
+0270	DOT SURVY 20 Survey Crew TG 20
+0272	DOT SURVY 21 Survey Crew TG 21
+0274	DOT SURVY 22 Survey Crew TG 22
+0276	DOT SURVY 23 Survey Crew TG 23
+0280	DOT METRO EM Metro Emergency to MSP
+0282	DOT COMMON Common
+0284	DOT MAINT NE MNDOT North East Maintance Dispatch
+0286	DOT MAINT NW MNDOT North West Maintance Dispatch
+0288	DOT MAINT C MNDOT Central Maintance Dispatch
+0290	DOT MAINT S MNDOT South Maintance Dispatch
+0292	DOT NB 12 'MNDOT North Branch, 12 
+0294	DOT FL 14 'MNDOT Forest Lake, 14 
+0296	DOT SLP 15 'MNDOT Spring Lake Park, 15 
+0298	DOT OKD 11 'MNDOT Oakdale, 11 
+0302	DOT MG 42 'MNDOT Maple Grove, 42 
+0304	DOT PLY 44 'MNDOT Plymouth, 44 
+0306	DOT GV 45 'MNDOT Golden Valley, 45 
+0308	DOT EP 43 'MNDOT Eden Prairie, 43 
+0310	DOT CAM 22 'MNDOT Camden Yard, Mlps, 22 
+0312	DOT RCH 23 'MNDOT Cedar, Richfield, 23 
+0314	DOT MYD 25 'MNDOT Maryland, St. Paul, 25 
+0316	DOT ARD 26 'MNDOT Arden Hills, 26 
+0318	DOT HST 33 'MNDOT Hastings, 33 
+0320	DOT MDT 32 'MNDOT Mendota, 32 
+0322	DOT LKV 34 'MNDOT Lakeville, 34 
+0324	DOT SHK 31 'MNDOT Shakopee, 31 
+0326	DOT JDN 35 'MNDOT Jordan, 35 
+0328	DOT SUPV MNDOT - Supervisors
+0330	DOT MAT ADM MNDOT Materials/Admin
+0334	DOT METRO MNDOT Metro
+0336	DOT METRO MNDOT Metro
+0340	DOT ESS LOCT ESS Cable Locates
+0342	DOT ESS SIG ESS Signals
+0344	DOT CONST OK Construction Office Oakdale
+0346	DOT CONST MD Construction Office Mendota
+0348	DOT CONST EP Construction Office Eden Prairie
+0350	DOT CONST GV Construction Office Golden valley
+0352	DOT SIGNS MNDOT - Sign Shop
+0354	DOT STRIPING Traffic Striping
+0358	DOT BLD MNT Building Mainenance
+0360	DOT HAZMAT HazMat
+0362	SRB DEMO 1 Radio Board - Demo 1
+0384	DOT NIGHT Night Crews
+0388	DOT SAFETY Safety
+0390	DOT METRO MNDOT Metro
+0396	DOT NIGHT 1 Night Crews 1
+0408	DOT METRO MNDOT Metro
+0410	DOT METRO MNDOT Metro
+0412	DOT METRO MNDOT Metro
+0448	DOT EVENTS Event Staging
+0528	SYS TECH 528 Radio Board - Demo TG
+0700	SYS TECH 700 System Technicians - ENC
+0702	SYS TECH 702 System Technicians - ENC
+0704	SYS TECH 704 System Technicians - ENC
+0706	SYS TECH 706 System Technicians - ENC
+0708	SYS TECH 708 SE MN System Technicians - ENC
+0886	ANKA SO JAIL Jail Main
+0888	ANKA SO JAIL Jail Administration
+0938	OKGV FIR TAC Oak Grove Fire Tactical
+0970	OKGV FIR ADM Oak Grove Fire Administrative 1
+1000	OKGV FIR ADM Oak Grove Fire Administrative 2
+1058	OKGV WORKS Oak Grove Public Works
+1068	ANKA CRT SEC Court Security
+1082	ANKA CRT SEC Court Security Administration
+1110	ANKA CO TRVL Anoka County Traveler Bus Operations
+1112	ANKA STR EXP Ramsey Star Express Transit Operations
+2000	EMS NM North EMS
+2001	EMS NM North EMS
+2002	EMS NM ALS ALS Dispatch - Metro
+2003	EMS NM ALEX Alexandria - Dispatch
+2004	EMS NM BLS BLS Dispatch - Metro
+2006	EMS NM MTAC1 Metro Tac 1
+2007	EMS NM WSCA Waseca - Dispatch
+2008	EMS NM ADM Administration
+2009	EMSNM HUBCAS Hubbard Cass - Dispatch
+2010	EMSNM MTAC 2 Metro Tac 2
+2011	EMSNM HUBCAS Hubbard - Cass T2T Tac
+2012	EMS NM SUPV Supervisors
+2014	EMS NM COMM Radio Service
+2016	EMS NM ADM A Admin Tac A
+2018	EMS NM ADM B Admin Tac B
+2026	EMS NM AC1 Air Care 1 Dispatch - Lakeville
+2028	EMS NM AC4 Air Care 4 Dispatch - Princeton
+2030	EMS NM FBLT Faribault - Dispatch
+2032	EMSNM FLIGHT Air Care Inflight Flight Following
+2034	EMS NM PCN Princeton - Dispatch
+2036	EMS NM ALLST All State Channel
+2038	EMS NM COMM Common
+2040	EMS NM NPDIS New Prague - Dispatch
+2042	EMS NM DISP Dispatch
+2044	EMS NM FLK 1 Forest Lake - CH 1
+2046	EMS NM FLK 2 Forest Lake - CH 2
+2048	EMS NM FBLT2 Faribault - CH 2
+2050	EMS NM PB 1 North EMS Princeton area Business 1
+2054	EMS NM AC2 Air Care 2 Dispatch - Brainerd
+2056	EMS NM AC3 Air Care 3 Dispatch - Redwood Falls
+2058	EMS NM AC5 Air Care 5 Dispatch - Bemidji
+2060	EMSNM BRD DI Brainerd - Dispatch
+2062	EMS NM BRD T Brainerd T2T
+2066	EMSNM BRD PG Brainerd Paging
+2068	NM HOS S1 North Memorial Hospital Security 1
+2070	NM HOS S2 North Memorial Hospital Security 2
+2072	NM HOS SS North Memorial Hospital Security Supervisors
+2074	NM MGH S 1 Maple Grove Hospital Security 1
+2076	NM MGH S 2 Maple Grove Hospital Security 2
+2078	NM HEICS CL Maple Grove ICS CALL
+2080	NM HEICS T 1 Maple Grove ICS TAC 1
+2082	NM HEICS T 2 Maple Grove ICS TAC 2
+2084	NM HEICS T 3 Maple Grove ICS TAC 3
+2086	NM HEICS T 4 Maple Grove ICS TAC 4
+2088	EMS NM FBLT Faribault
+2090	EMS NM BRD Brainerd
+2092	EMS NM RWF RW Falls - Dispatch
+2096	EMSNM PINE R Pine River - Dispatch
+2098	EMSNM PINE R Pine River T2T
+2100	EMSAL AL2 ALS Dispatch North
+2102	EMSAL BLS BLS Dispatch
+2103	EMSAL N ULM New Ulm Dispatch
+2104	EMSAL TAC 1 Tactical 1
+2106	EMSAL TAC 2 Tactical 2
+2108	EMSAL STWD Statewide
+2109	EMSAL HU DSP Hutchinson - Glencoe Dispatch
+2110	EMSAL EVNT3 Event 1
+2111	EMSAL HU ADM Hutchinson Admin
+2112	EMSRV_ALS ALS Ambulance Dispatach Communications
+2114	EMSRV_BUS Business
+2115	LL3 INFLIGHT Flight Follow - Statewide
+2116	EMSRV_ADM Administration
+2117	LL3 TAC 1 Tac 1 - Statewide
+2118	EMSRV_EVNT Event
+2119	LL3 ALEX DI Alexandria Dispatch
+2121	LL3 ANOKA DI Anoka Dispatch
+2122	212 MED CTR Two Twelve Medical Center Patient Information
+2123	LL3 WILL DI Willmar Dispatch
+2124	EMSHC_EVNT HCMC Events
+2125	LL3 HIBB DI Hibbing Dispatch
+2130	EMSHC_MAIN HCMC Ambulance
+2131	EMSHC_TAC1 HCMC Emergency Medical Services Tactical 1
+2132	EMSHC_BUS 'HCMC channel 2 ''business'' 
+2133	EMSHC_TAC2 HCMC Emergency Medical Services Tactical 2
+2134	EMSHC_ HCMC Inactive
+2135	EMSHC_TAC3 HCMC Emergency Medical Services Tactical 3
+2136	HCMC_SUPV HCMC Supervisors
+2137	EMSHC_TAC4 HCMC Emergency Medical Services Tactical 4
+2138	HCMC_ADMIN HCMC Administration
+2140	MetroEMS2140 OPEN
+2142	EMS_MRCC West MRCC Main
+2148	MetroEMS2148 OPEN
+2150	EMS MET CORD CHD Metro Region Coordination
+2152	ABT NW HOSP Abbott Northwestern Hospital
+2154	CHILD HOSP Minneapolis Children's Hospital
+2156	EMHHC_PI Hennepin County Medical Center
+2158	EMHMC_PI Mercy Hospital
+2160	METHD HOSP Methodist Hospital
+2162	N MEM MED C North Memorial Medical Center
+2164	UMMC WEST BK University of Minnesota Medical Center West Bank
+2166	EMHRV_PI Ridgeview Medical Center
+2168	FRV SDL MED Fairview Southdale Medical Center
+2170	ST FRAN HOSP St. Francis Regional Medical Center
+2172	UMMC EAST BK University of Minnesota Medical Center East Bank
+2174	UNITY HOSP Unity Medical Center
+2176	MPLS VET CTR Minneapolis Veteran Affairs Medical Center
+2178	ST JOSP HOSP St. Joseph's Hospital
+2180	ST JOHN HOSP St. John's Hospital
+2182	LKVW MED CTR Lakeview Medical Center
+2184	RGNA MED CTR Regina Medical Center
+2186	F RDGS MED C Ridges Medical Center
+2188	RGNS HOSP Regions Hospital
+2190	UNITED HOSP United Hospital
+2192	WDWNDS HOSP Woodwinds Hospital
+2196	MPL GRV HOSP Maple Grove Hospital
+2198	MPL GRV HOSP Maple Grove Hospital
+2204	NMEM MED CTR North Memorial Medical Center
+2208	RGVW MED CTR Ridgeview Medical Center
+2210	FVW SDL HOSP Fairview Southdale Hospital
+2224	LKVW MED CTR Lakeview Medical Center
+2236	EMH CALL EMH Calling
+2238	EMH COMM 1 EMH Comm 1
+2240	EMH COMM 2 EMH Comm 2
+2242	MetroEMS2242 OPEN
+2244	OPEN OPEN
+2246	OPEN OPEN
+2250	EMS_CHD CHD
+2260	WEST MET SUP West Metro EMS Supervisors
+2262	EMSAL ALL Dispatch All Call
+2264	EMSAL ALS Dispatch South
+2266	EMSAL ALW Wright County ALS Dispatch
+2268	EMSALNF DISP Northfield Ambulance Dispatach
+2270	EMSAL PTINFO ADC Patient Information
+2272	EMSAL BUS 1 Business 1
+2274	EMSAL BUS 2 Business 2
+2280	EMH COMM 3 EMH Comm 3
+2282	EMH COMM 4 EMH Comm 4
+2286	EMSLR OPS EMS Operations
+2288	FRV LKS HOSP Fairview Lakes Medical Center
+2290	EMSLR SUPV Supervisors
+2296	HEAST ALS DI HealthEast ALS Dispatch
+2298	HEAST BLS DI HealthEast BLS Dispatch
+2300	HEAST EVNT E HealthEast Event Channel
+2302	HEAST SUPV HealthEast Supervisors
+2304	HEAST ADM HealthEast Administration
+2306	EMMRCMAIN East MRCC Main
+2310	LVIEW EMS Lakeview EMS
+2312	LVIEW ADMIN Administration
+2314	LVIEW EMS Lakeview EMS
+2318	EMS_COORD EMS Coordination
+2326	EMSAL EOC Emergency Operations Centers
+2328	EMSAL EOC T1 EOC Tactical 1
+2330	EMSAL EOC T2 EOC Tactical 2
+2334	EMSNR_ADMIN New River EMS Administration
+2336	ST MRCC CALL EMS Patient Information Statewide MRCC Calling
+2338	212 MED CTR Two Twelve Medical Center
+2342	UM AMPLATZ University of Minnesota Amplatz Children's Hospital
+2344	EMS NM SED Statewide Emergency Department
+2346	EMS ST CR DI St. Croix Valley EMS Dispatch
+2350	HEAST ROAM HealthEast Roam
+2465	LR EMS Disp Dispatch
+2500	MTC BUS Bus Operations
+2502	MTC BUS Bus Operations
+2504	MTC BUS Bus Operations
+2506	MTC ALL CALL Bus Operations
+2508	MTC BUS 1 Bus TG 1
+2510	MTC BUS 2 Bus TG 2
+2512	MTC BUS 3 Bus TG 3
+2514	MTC BUS 4 Bus TG 4
+2516	MTC BUS 5 Bus TG 5
+2518	MTC BUS 6 Bus TG 6
+2520	MTC BUS 7 Bus TG 7
+2522	MTC BUS 8 Bus TG 8
+2524	MTC BUS 9 Bus TG 9
+2526	MTC SUPV Bus Supervisor
+2528	MTC SUPV C2C Bus Supervisors car to car
+2530	MTC SUPV TAC Supervisors Tactical
+2546	MTC MAINT NS Maint. Nicollet Shop
+2548	MTC MAINT MP Maint. Downtown Mpls Shop
+2550	MTC MAINT BP Maint. Brooklyn Park Shop
+2552	MTC MAINT Maintenance
+2554	MTC MAINT Maintenance
+2558	MTC STP SHOP Metro Transit St. Paul Shop
+2564	MTC MAINT AL Maintenance All Call
+2574	MTC 2574 Buses
+2576	MTC BUS 13 Bus TG 13
+2578	MTC Bus 2578 Buses
+2908	MPLS SYS TEC System Technicians
+2930	MPLS SANITN Sanitation
+3300	LRAIL ALL CL LRT All Call
+3302	LRAIL OPS LRT Operations
+3304	LRAIL MAINT LRT Maintenance
+3306	LRAIL YARD LRT Yard - RCC Ops
+3308	LRAIL SUPV LRT Supervisors
+3310	LRAIL FACILT LRT Facilities
+3312	LRAIL MAC TA LRT MAC Tactical
+3314	LRAIL MAIN LRT Main
+3316	LRAIL OPS LTR Operations
+3320	LRAIL BLUE M LTR Blue Main
+3324	LRAIL OPS LRT Rail Ops
+3326	LRAIL MAIN N LTR North Main
+3336	MetroMob3336 Metro Mobility
+3338	MetroMob3338 Metro Mobility
+3340	MetroMob3340 Metro Mobility
+3342	MetroMob3342 Metro Mobility
+3344	MetroMob3344 Metro Mobility
+3346	MetroMob3346 Metro Mobility
+3348	MetroMob3348 Metro Mobility
+3350	MetroMob N-E Metro Mobility East - North
+3352	MetroMob CNT Metro Mobility Central
+3354	MetroMob3354 Metro Mobility
+3356	MetroMob3356 Metro Mobility
+3358	MetroMob W-S Metro Mobility West - South
+3360	MetroMobEdin Metro Mobility Edina
+3362	MetroMobBrkC Metro Mobility Brooklyn Center
+3364	MetroMob3364 Metro Mobility
+3366	MetroMob SE Metro Mobility South - East
+3580	UMN SEC MON Security Monitors
+3600	WA PARKS 1 Parks 1
+3601	WA HW MAINT Highway Maintenance Crew
+3602	WA PARKS 2 Parks 2
+3604	WA PARKS 3 Parks 3
+3619	WA FIRE ALL Fire All Call
+3722	WA JAIL OP 1 Jail Operations 1
+3724	WA JAIL OP 2 Jail Operations 2
+3728	WA JAIL OP 3 Jail Operations 3
+3750	WA FIRE DISP Fire Main Disp.
+3752	WA FIRE SEC Fire Secondary Disp.
+3754	WA FD T2T Fire T2T
+3756	WA FD TAC A Fire TAC A
+3758	WA FD TAC B Fire TAC B
+3760	WA FD TAC C Fire TAC C
+3762	WA FD TAC D Fire TAC D
+3764	WA FD TAC E Fire TAC E
+3766	WA FD TAC F Fire TAC F
+3768	WA FD DIVE Fire Dive Team
+3770	WA FD ROAM Fire Department Roaming
+3772	WA FIRE Fire
+3774	WA FIRE ALL Fire All Call
+3776	BYPT FIRE 2 Bayport Fire Ops 2
+3778	BYPT FIRE 3 Bayport Fire Ops 3
+3780	CGRV FIRE 2 Cottage Grove Fire Ops 2
+3782	CGRV FIRE 3 Cottage Grove Fire Ops 3
+3800	MTMD FIRE 2 Mahtomedi Fire Ops 2
+3802	MTMD FIRE 3 Mahtomedi Fire Ops 3
+3812	OAK FIRE OP2 Oakdale Fire Operations 2 - 7200
+3814	OAK FIRE OP3 Oakdale Fire Operations 3 â€“ 7200
+3820	SPPK FIRE 2 St. Paul Park Fire Ops 2
+3822	SPPK FIRE 3 St. Paul Park Fire Ops 3
+3828	WBRY FD OPS Woodbury Fire Ops
+3830	WBRY FD ADM Woodbury Fire Admin
+3832	WA FIRE Fire
+3890	WA HW MAINT Highway Maintenance Crew
+4200	DK FIRE EST Fire East Main
+4202	DK FIRE WST Fire West Main
+4204	DK FGR 4 Dakota County Fireground 4
+4206	DK FGR 5 Dakota County Fireground 5
+4208	DK FGR 6 Dakota County Fireground 6
+4210	DK FGR 7 Dakota County Fireground 7
+4212	DK FGR 8 Dakota County Fireground 8
+4222	HAST FD OP2 Hastings Fire Ops 2
+4236	DK SM OP2 South Metro SSP & WSP Fire Ops 2
+4246	HAST FD OP3 Hastings Fire Ops 3
+4260	DK SM OP3 South Metro Fire Ops 3 (SSP/WSP)
+4262	DK F ROAM Fire Statewide Roaming
+4272	DakotaCoFire Fire Paging
+4424	DK JAIL 1 Jail 1
+4430	DK COURT 1 Courts 1
+4432	DK COURT 2 Courts 2
+4434	DK COURT 3 Courts 3
+4798	DK FIRE ALL Fire All Call
+4812	SCOT FIRE DI County Fire Dispatch
+4874	SCOTT FG 5 FireGround 5
+4876	SCOTT FG 6 FireGround 6
+4878	SCOTT FG 7 FireGround 7
+4880	SCOTT FG 8 FireGround 8
+4882	SCOTT FG 9 FireGround 9
+4884	SCOTT FG 10 FireGround 10
+4886	SCOTT FG 11 FireGround 11
+4888	SCOTT FG 12 FireGround 12
+5413	CSGO FIRE AL Chisago Fire All
+5425	CSGO FIRE Chisago Fire
+5426	CSGO FIRE Chisago Fire
+5427	CSGO FIRE Chisago Fire
+5440	CSGO FIRE EM Fire -EMS Dispatch
+5443	CSGO FIRE CM County fire Common
+5446	CSGO FDIC 2 FDIC 2
+5449	ALMELUND FD Almeund Fire Tac
+5455	ALMELUND FD Almeund Fire Tac
+5546	CSGO IC FIRE Fire - IC ( Incident Command )
+5549	ALMEUND FD Almeund Fire Tac
+6017	ISNT Isanti
+6020	ISNT SO JAIL Isanti Co Jail
+6032	ISNT CO FIRE County Fire Dispatch
+6040	ISANTI FIRE Isanti Fire Tac
+6042	ISNT HWAY 1 County Highway 1
+6044	ISNT HWAY 2 County Highway 2
+6046	ISNT HWAY 3 County Highway 3
+6054	ISANTI WKS 1 Isanti Public Works 1
+6056	ISANTI WKS 2 Isanti Public Works 2
+6058	ISNT ISANTI
+6060	ISNT ISANTI
+6062	ISNT ISANTI
+6064	ISNT ISANTI
+6066	ISNT ISANTI
+6068	ISNT ISANTI
+6070	ISNT ISANTI
+8000	TEST TG 1 Test TG 1
+8002	TEST TG 2 Test TG 2
+8004	TEST TG 3 Test TG 3
+8006	TEST TG 4 Test TG 4 ?
+8008	TEST TG 5 Test TG 5 ?
+8012	TEST MULTI Test Multigroup
+9980	MOTO ALL MOTO System Technicians All
+9982	MOTOROLA 1 MOTO System Technicians 1
+9984	MOTOROLA 2 MOTO System Technicians 2
+9986	MOTOROLA 3 MOTO System Technicians 3
+9988	MOTOROLA 4 MOTO System Technicians 4
+9990	MOTOROLA 5 MOTO System Technicians 5
+9992	MOTOROLA 6 MOTO System Technicians 6
+10024	HFIRE 3 Fire TAC 3
+10025	HFIRE 7 Fire TAC 7
+10036	HFIRE 2 Fire T2T TAC 2 - Truck to Truck Repeated
+10040	HFIRE 1 Fire Main 1
+10050	HFIRE 4 Fire TAC 4
+10051	HFIRE8 Fire TAC 8
+10052	HFIRE 5 Fire TAC 5
+10053	HFIRE 9 Fire TAC 9
+10054	HFIRE 6 Fire TAC 6
+10055	HFIRE 10 Fire TAC 10
+10057	HFIRE_11 Fire TAC 11
+10232	HS COURT SEC Court Security
+10234	HS PSF SEC PSF Security
+10236	HSPS MP1 Century-Ramar-No.Village HC Security-HCSO Courts
+10238	H110 CRT SEC H-110 Court security
+10250	HS PSF SEC PSF Security
+10252	HS COURT BRK Brookdale-HC Security and HCSO Courts
+10254	HR CRT SEC H R-Dale Court Security
+10260	HC PSF-ADC 2 PSF/ADC Tactical 2
+10266	HS CRT SEC H S-Dale Court Security
+10270	HC PSF-ADC 3 PSF/ADC Tactical 3
+10280	HC PSF-ADC 4 PSF/ADC Tactical 4
+10290	HC ADC MAINT ADC Maintenance
+10292	HC ADC SUPV ADC Supervisors
+10366	HS CRT SEC Court Security
+10370	HS PSF SEC PSF Security
+10468	HC COURT ALL Court Sec All Call
+10546	R W SCHOOLS Robbinsdale or Wayzata Schools
+10606	MTKA COMM 1 City Common 1
+10608	GVLY FIR OP2 Golden Valley Fire Ops 2
+10614	GVLY FIR OP3 Golden Valley Fire Ops 3
+10618	GVLY PW 1 Golden Valley Public Works 1
+10648	GVLY PW 2 Golden Valley Public Works 2
+10676	GVLY PW 3 Golden Valley Public Works 3
+10680	HC PLY ALL Plymouth All Call
+10796	MAC FIRE DIS Airport Fire Dispatch
+10804	SLP FD DISP Fire Dispatch
+10806	GVLY FD DISP Golden Valley Fire Dispatch
+10818	HC PLY MAINT Plymouth Maintenance
+10826	MTKA COMM 2 City Common 2
+10832	HC PLY MEN Plymouth Men
+10834	HC PLY WOMEN Plymouth Women
+10836	ACF WORK ACF workhouse
+10838	HC PLY TAC Plymouth Tactical
+10840	MTKA FD 2 DI Fire Main 2
+10842	HC PLY SUPLY Plymouth Supplies
+10846	HC PLY C2C Plymouth Car to Car
+10848	MTKA FGND 2 Fireground 2
+10858	MAC FIRE 3 Airport Fire 3
+10860	MAC FIRE 1 Airport Fire 1
+10862	MAC FIRE 2 Airport Fire 2
+10864	MAC FIRE ALL Airport Fire All Call
+10866	MAC F OPS 1 Field Ops 1
+10868	MAC F OPS 2 Field Ops 2
+10870	MAC F OPS 3 Field Ops 3
+10872	MAC F OPS 4 Field Ops 4
+10874	MAC F ALL Field All Call
+10876	MAC OPS Airport Operations
+10878	MAC COMMON Airport Common
+10886	MAC F OPS MAC Operations
+10888	MAC FIRE 2 Airport Fire 2
+10914	ACF WORK ACF workhouse
+10916	HC PLY ALL Plymouth All Call
+10970	HC HM SCHL 1 Home School 1 Main - Juveniles
+10972	HC HM SCHL 2 Home School 2
+10974	HC HM SCHL 3 Home School 3
+10976	HC HM SCHL 4 Home School 4
+10978	HC HM SCHL 5 Home School 5
+10982	H JDC 2 Juv Center 2
+11028	MAC ELECT Airport Maintenance 1 Electricians
+11030	MAC ENV SERV Airport Maintenance 2 Environmental Services
+11032	SLP FIRE T2T Fire Truck to Truck
+11034	SLP FIRE P2P Fire Portable to Portable
+11064	MTKA FIRE DI Fire Main 1 - Dispatch
+11066	MTKA FIRE AD Fire Admin
+11244	SWMT OPS 1 Bus Operations 1
+11246	SWMT OPS 2 Bus Operations 2
+11248	SWMT SUPV Supervisors
+11250	SWMT OPS 4 Bus Operations 4
+11252	SWMT OPS 5 Bus Operations 5
+11510	RAM Ramsey
+11522	RW FIRE S SP Ramsey Fire Dispatch South - St. Paul
+11524	RE FIRE NRTH Ramsey Fire Dispatch North
+11532	SPPD CH 5 SP PD Ch 5 Information/Records
+11534	RAM Ramsey
+11556	RAM Ramsey
+11558	SPPD CH 1 W SP PD Ch 1 West
+11560	SPPD CH 2 C SP PD Ch 2 Central
+11562	SPPD CH 3 E SP PD Ch 3 East
+11568	RAM Ramsey
+11606	RAM Ramsey
+11608	RAM Ramsey
+11610	RAM Ramsey
+11612	RAM Ramsey
+11614	RAM SEC MAIN
+11616	RAM Ramsey
+11620	RAM Ramsey
+11622	RAM Ramsey
+11624	RAM Ramsey
+11626	RAM Ramsey
+11628	RAM JAIL OPS Jail Operations
+11630	RAM Ramsey
+11632	RW FIRE ADM Fire Admin
+11634	RW FIRE OP 4 Fire Ops 4
+11636	RW FIRE OP 5 Fire Ops 5
+11638	RW FIRE OP 6 Fire Ops 6
+11640	RW FIRE OP 7 Fire Ops 7
+11642	RW FIRE OP 8 Fire Ops 8
+11644	RW FIRE OP 9 Fire Ops 9
+11646	RW FIRE OP10 Fire Ops 10
+11650	RAM WORKS 1 Public Works 1 Main
+11652	RAM WORKS 2 Public Works 2 Truck to Truck
+11654	RAM WORKS 3 Public Works 3 Flagging
+11656	RAM WORKS 4 Public Works 4
+11658	RAM WORKS 5 Public Works 5
+11660	RAM WORKS 6 Public Works 6
+11662	RAM WORKS 7 Public Works 7
+11664	RAM WORKS 8 Public Works 8 Sign Shop
+11666	RAM WORKS 9 Public Works 9 Roads
+11668	RAM WORKS 10 Public Works 10 All Call
+11690	RAM Ramsey
+11700	RAM JAIL CTL Jail Control
+11702	RAM Ramsey
+11704	RAM Ramsey
+11706	RAM Ramsey
+11710	RAM JAIL OPS Jail Operations
+11718	RAM JAIL OPS Jail Operations
+11876	RAM Ramsey
+11958	RAM FIRE DIS Automated Fire Dispatch Testing
+11972	RAM FIRE Ramsey Fire
+11974	RAM FIRE Ramsey Fire
+11976	RAM FIRE Ramsey Fire
+11978	RAM FIRE Ramsey Fire
+11980	RAM FIRE Ramsey Fire
+11984	RAM FIRE Ramsey Fire
+11986	RAM FIRE Ramsey Fire
+11988	RAM FIRE ALL Ramsey Fire All Call
+12004	NB-FG2 New Brighton Fire Department Fireground 2
+12006	NB-FG3 New Brighton fireground 3
+12016	NSP FGND 2 N. St. Paul Fire Fireground 2
+12018	NSP FGND 3 N. St. Paul Fire Fireground 3
+12032	RAM Ramsey
+12056	RVL FGND 2 Roseville Fire Fireground 2
+12058	RVL FGND 3 Roseville fireground 3
+12062	RVL FD ALL Roseville Fire All
+12066	RAM Ramsey
+12070	FHTS FGND 2 Falcon Heights Fire Fireground 2
+12072	FHTS FGND 3 Falcon Heights Fire Fireground 3
+12080	LKJOH FGND 2 Lake Johanna Fire Fireground 2
+12082	LKJOH FGND 3 Lake Johanna Fire Fireground 3
+12104	WB LK FG 2 White Bear Lake Fireground 2
+12106	WB LK FG 3 White Bear Lake Fireground 3
+12108	WB LK FIRE White Bear Lake Fire Main 1
+12110	WB LK WORKS White Bear Lake Public Works
+12112	RAM Ramsey
+12115	RAM Ramsey
+12124	MPLD FG 2 Maplewood Fireground 2
+12130	RAM Ramsey
+12140	LCAN FGND 2 Little Canada Fire Fireground 2
+12142	LCAN FGND 3 Little Canada Fire Fireground 3
+12150	VDHT FG 2 Vadnais Heights fireground 2
+12154	RAM Ramsey
+12176	RAM Ramsey
+12190	WB TWP PW White Bear Township Public Works
+12192	RAM Ramsey
+12376	STPAUL SCHLS School Transportation Dispatch
+12378	STPAUL SCHLS School Transportation Safety
+12380	RAM Ramsey
+12382	STPAUL SCHLS School Transportation Supervisor
+12384	RAM Ramsey
+12400	SPPD CH 4 SP PD Ch 4 Car to Car
+12402	SPPD ENC 1 Encrypted 1
+12404	STP COM 3 St. Paul Common 3
+12408	SPPD OPS 1 Operations 1
+12410	SPPD OPS 2 Operations 2
+12412	SPPD OPS 3 Operations 3
+12414	SPPD OPS 4 Operations 4
+12416	STP ANIMAL St. Paul Animal Control
+12418	RAM Ramsey
+12422	RAM Ramsey
+12424	SPPD 12424 Police Encrypted
+12426	SPPD 12426 Police Encrypted
+12428	SPPD 12428 Police Encrypted
+12430	RAM Ramsey
+12432	RAM Ramsey
+12438	RAM Ramsey
+12440	RAM Ramsey
+12442	SPPD 12442 Police Encrypted
+12450	SPFD DISP Fire / Rescue Dispatch
+12452	SPFD FIREGND Fireground
+12454	SPFD PARAMED Paramedics
+12456	SPFD 4 FD 4
+12458	SPFD 5 FD 5
+12460	SPFD 6 FD 6
+12462	SPFD 7 FD 7
+12464	SPFD 8 FD 8
+12466	SPFD 9 FD 9
+12468	SPFD 10 FD 10
+12470	SPFD 11 FD 11
+12472	SPFD 12 FD 12
+12474	SPFD 13 EOC FD 13 - EOC Channel
+12476	SPFD PREV 1 Fire Prevention
+12478	SPFD PREV 2 Fire Prevention
+12480	STP PARKS 1 Parks & Recreation 1
+12482	STP PARKS 2 Parks & Recreation 2
+12484	STP PARKS 3 Parks & Recreation 3
+12486	STP PARKS 4 Parks & Recreation 4 Maintenance
+12488	RAM Ramsey
+12500	STP CITY 1 St. Paul City 1
+12514	STP CITY 2 St. Paul City 2
+12552	STP WORKS 1 Public Works 1 Main
+12554	STP WORKS 2 Public Works 2
+12556	STP WORKS 3 Public Works 3
+12558	STP WORKS 4 Public Works 4 Streets 1
+12560	STP WORKS 5 Public Works 5 Streets 2
+12562	STP WORKS 6 Public Works 6
+12564	STP WORKS 7 Public Works 7
+12566	STP WORKS 8 Public Works 8
+12568	STP WORKS 9 Public Works 9
+12570	STP WORKS 10 Public Works 10
+12572	STP WORKS 11 Public Works 11
+12574	STP WORKS 12 Public Works 12
+20000	SYS TECH ROC SE MN Radio Technicians Rochester
+20050	DOT ROCH DOT Rochester
+20052	DOT ROCH OWT District 6A Hail Main Rochester - Owatonna
+20054	DOT 6B MAIN District 6B Main
+20056	DOT ROC EMER DOT Rochester To SP Dispatch - Emergency
+20058	DOT ROCH DOT Rochester
+20059	DOT ROCH DOT Rochester
+20060	DOT ROCH DOT Rochester
+20061	DOT ROCH DOT Rochester
+20062	DOT ROCH DOT Rochester
+20063	DOT ROCH DOT Rochester
+20064	DOT ROCH DOT Rochester
+20065	DOT ROCH DOT Rochester
+20066	DOT ROCH DOT Rochester
+20067	DOT ROCH ALL DOT Rochester All Call
+20068	DOT ROCH DOT Rochester
+20072	DOT ROCH DOT Rochester
+20074	DOT ROCH DOT Rochester
+20076	DOT ROCH DOT Rochester
+20078	DOT ROCH DOT Rochester
+20080	DOT AUSTIN DOT Austin?
+20082	DOT RED WING DOT Red Wing?
+20084	DOT ROCH ST DOT Rochester Truck Station
+20086	DOT ALBERT L DOT Albert Lea Truck Station
+20088	DOT OWATONA DOT Owatonna Truck Station
+20090	DOT WINONA DOT Winona?
+20091	DOT ST CHLS DOT St. Charles Truck Station
+20092	DOT ROCH DOT Rochester
+20094	DOT DRSBCH DOT Dresbach Truck Station
+20110	DOT MKO DOT Mankato
+20112	DOT MKO DOT Mankato District
+20114	DOT MKO DOT Mankato District
+20124	DOT MKO WTH DOT Mankato - Worthington
+20126	DOT MKO ALL DOT Mankato - All Call
+20128	DOT MKO EMER DOT Mankato Emergency to MSP
+20130	DOT MKO DOT Mankato District
+20132	DOT Mankato DOT Mankato
+20134	DOT MKO DOT Mankato
+20136	DOT Mankato DOT Mankato
+20142	DOT MKO LESR DOT Mankato - LeSueur
+20144	DOT MKO MKO DOT Mankato - Mankato
+20146	DOT MKO MLTN DOT Mankato - Mapleton
+20148	DOT MKO DOT Mankato
+20156	DOT MKO STJM DOT Mankato - St. James
+20158	DOT MKO WDM DOT Mankato - Windom
+20160	DOT MKO DOT Mankato
+20236	DOT WRTH-MSP DOT Worthington to MSP
+21598	ROCH MH HOSP Rochester Methodist Hospital
+21605	EMSMM-RST-O2 Mayo - Rochester Operations 2
+21607	EMSMM-AUS-ON Austin On Call
+21608	EMSMM-RST-AM Mayo - Rochester Patient Update
+21609	EMSMM-AUS-DI Austin Dispatch
+21610	EMSMM-RST-DI Mayo - Rochester Dispatch
+21611	EMSMM-OWT-ON Owatonna On Call
+21612	EMSMM-RST-O1 Mayo - Rochester Operations 1
+21613	EMSMM-AUS-O1 Austin Operations 1
+21615	EMSMM-AUS-O2 Austin Operations 2
+21616	OLM MED CTR Olmsted Medical Center (Rochester)
+21617	EMSMM-OWT-DI Owatonna Dispatch
+21618	EMHMM-SMH St Mary's Incoming Patient Information
+21619	EMSMM-SE-Air Mayo One Southeast Air Operations
+21621	EMSMM-OWT-O1 Owatonna Operations 1
+21622	ALBRT L MED Albert Lea Medical Center
+21623	EMSMM-OWT-O2 Owatonna Operations 2
+21624	AUSTIM MED Austin Medical Center
+21625	EMSMM-MKT-DI Mankato Dispatch
+21626	DIST ONE MED District One Hospital (Faribault)
+21627	EMSMM-MKT-ON Mankato On Call
+21628	LK CTY HOSP Lake City Hospital
+21629	EMSMM-MKT-O1 Mankato Operations 1
+21630	WABASHA HOSP Wabasha Hospital
+21631	EMSMM-FMT-ON Fairmont On Call
+21632	WINONA HOSP Winona Hospital
+21633	EMSMM-FMT-DI Fairmont Dispatch
+21634	CAN FLS HOSP Mayo Cannon Falls Hospital
+21635	EMSMM-SC6 Unassigned
+21636	OWATNA HOSP Owatonna Hospital Patient Info
+21637	EMSMM-FMT-O1 Fairmont Operations 1
+21638	FED MED CTR Federal Medical Center Rochester
+21639	EMSMM-SC-Air Mayo One South Central Air Operations
+21851	EMSMM-AL-DIS MCHS Albert Lea Dispatch
+21852	EMSMM-AL-OP1 MCHS Albert Lea Operations 1
+21853	EMSMM-AL-OP2 MCHS Albert Lea Operations 2
+21855	EMSMM-AL-ONC MCHS Albert Lea On Call
+24018	SYS TECH STR System Tech's / Stearns County Area
+24050	SYS TECH WLM System Technicians Willmar
+24052	MSP 2600 DSP 'St. Cloud ''2600'' Dispatch 
+24053	MSP 2600 RM 'St. Cloud ''2600'' Roaming 
+24054	MSP 2600 T 2 'St. Cloud ''2600'' TAC 2 
+24056	MSP 2600 T 1 'St. Cloud ''2600'' TAC 1 
+24057	MSP 2600 A I 'St. Cloud ''2600''  
+24058	MSP 2600 ALL 'St. Cloud ''2600'' TAC 3 - All Call 
+24059	MSP 2600 TRG 'St. Cloud ''2600'' Truck Reg. TAC 
+24060	SYS TECH Z 4 System Technicians Zone 4 ENC
+24068	MSP 2600 TAC 'St. Cloud ''2600'' TAC  
+24070	DOT WILLMAR DOT Willmar
+24078	DOT SILVR LK DOT Silver Lake
+24101	DOT 3 DOT 3
+24103	DOT 3 DOT 3
+24136	DOT 3 ALL DOT 3 All Call
+24138	DOT 3B MAIN DOT 3B Main
+24140	DOT STC EMER DOT St. Cloud - State Patrol Emergency
+24141	DOT BRD EMER DOT Brainerd - State Patrol Emergency
+24142	DOT 3 DOT 3
+24144	DOT 3 DOT 3
+24145	DOT 3 DOT 3
+24146	DOT 3 DOT 3
+24148	DOT ELK RVR DOT Elk River Truck Station
+24150	DOT ST CLOUD DOT St. Cloud Metro Truck Station
+24152	DOT 3 DOT 3
+24154	DOT 3 DOT 3
+24156	DOT 3 DOT 3
+24158	DOT 3 DOT 3
+24160	DOT ST CLOUD DOT ST CLOUD
+24166	DOT 3 DOT 3
+24168	DOT 3 DOT 3
+24170	DOT 3 DOT 3
+24172	DOT 3 DOT 3
+24173	DOT 3 DOT 3
+24174	DOT BRAINERD MnDOT Brainerd
+24178	DOT 3B_TAC1 District 3B Tactical 1
+24180	DOT 3B_TAC2 District 3B Tactical 2
+24182	DOT 3 DOT 3
+24184	DOT 3 DOT 3
+24185	DOT BRAINERD DOT Brainerd
+24187	DOT PINE AKN DOT Pine River - Aitkin
+24188	DOT MONTCLO DOT Monticello Truck Stations
+24190	DOT 3 DOT 3
+24194	DOT CAMBRG DOT Cambridge
+24196	DOT 3 DOT 3
+24200	DOT 3 DOT 3
+24202	DOT 3 DOT 3
+24204	DOT DL ALL DOT DL All Call
+24206	DOT DL TAC DOT DL TAC
+24208	DOT DL EMERG DOT DL Emergency to State Patrol
+24210	DOT DL TAC DOT DL TAC
+24214	DOT DL BRIDG DOT DL Bridges
+24216	DOT DL TAC DOT DL TAC
+24218	DOT DL TAC 1 DOT DL - D4- TAC 1
+24220	DOT DL MAIN DOT DL - Erhard - F. Falls - Henning - Alex. - Evans.
+24222	DOT VHF OVER DL VHF OVERLAY TESTING
+24224	DOT DL DOT DL
+24226	DOT DL DOT DL
+24228	DOT DL MAIN DOT DL - Barn. - Mhd. - Hawley
+24230	DOT DL MAIN DOT DL - Wheaton - Glenwood - Ortonville - Appleton - Morris
+24232	DOT DL DOT DL
+24234	DOT 3 DOT 3
+24236	DOT DL DOT DL
+24238	DOT DL DOT DL
+24240	DOT DL DOT DL
+24242	DOT DL DOT DL
+24244	DOT DL DOT DL
+24248	DOT DL DOT DL
+24250	DOT DL TAC 2 DOT DL - D4-TAC 2
+24252	DOT DL MAIN DOT DL - Lakes - Perham - Mahn.
+24254	DOT DL TAC DOT DL TAC
+24434	EMSMM-STC-AM Mayo - St. Cloud Patient Update
+24614	EMS ADMIN EMS Admin
+24618	EMS ADMIN EMS Admin
+24620	EMS ADMIN EMS Admin
+24622	EMS ADMIN EMS Admin
+24882	EMSMM-LCH-AM Meeker County Patient Update
+24884	EMSMM-CMOPS1 Central Region Operations 1
+24886	EMSMM-LFS-AM Mayo - Patient Update
+25112	SHBN COURT County Court
+25126	SHBN JAIL Sheriff - Jail
+25152	SHBN FIRE DI County Fire - Dispatch
+25154	SHBN JAIL BK Jail Booking
+25300	WR FIRE DISP County WR Fire
+25302	WR FIRE TAC1 County Fire Tac 1
+25303	WR FIRE TAC2 County Fire Tac 2
+25304	WR FIRE TAC3 County Fire Tac 3
+25305	WR FIRE TAC4 County Fire Tac 4
+25306	WR FIRE TAC5 County Fire Tac 5
+25307	WR FIRE TAC6 County Fire Tac 6
+25308	WR FIRE TAC7 County Fire Tac 7
+25309	WR FIRE TAC8 County Fire Tac 8
+27116	EMSMM-STC-DI Mayo - St. Cloud Dispatch
+27118	EMSMM-GRND-R Statewide Ground Roaming
+27119	EMSMM-Air-RO Statewide Air Roaming
+27120	EMSNR_EMS New River Ambulance Service
+27200	EMSMM-CMOPS2 Central Region Operations 2
+27202	EMSMM-LCH-DI Mayo - Meeker County Dispatch
+27203	EMSMM-CMOPS3 Central Region Operations 3
+27963	EMS TAC EMS Tac
+28522	DOT WILLMAR DOT Willmar
+28524	DOT SHOP DOT Shop
+28528	DOT WILLMAR DOT Willmar
+28530	DOT WILLMAR DOT Willmar
+28532	DOT 8 Tac 3 Tactical 3
+28534	DOT WILLMAR DOT Willmar
+28540	DOT WILLMAR DOT Willmar
+28546	DOT WILLMAR DOT Willmar
+28548	DOT ALL CALL DOT Willmar All Call
+28550	DOT PIPESTON DOT PIPESTONE
+28552	DOT WLM EMER DOT Emergency to MSP
+28556	DOT 8 SUPV Dist 8 Supervisors
+28560	DOT HUTCH DOT Hutchinson
+28562	DOT MARSH DOT Marshall
+28564	DOT WILLMAR DOT Willmar
+30104	RW FIRE EM Fire - Ems Dispatch
+36528	DOT DLH ALL DOT Duluth - All Call
+36530	DOT DLH EMER DOT Duluth Emergency to State Patrol
+36532	DOT GR FLD DOT Duluth G. Rapids - Floodwood
+36534	DOT PC SD MG DOT Duluth Pine City - Sandstone - McGregor
+36536	DOT CL NP PL DOT Duluth Carlton - Nopeming - Pike Lake
+36540	DOT I FALLS DOT Duluth International Falls
+36542	DOT ELY HIBB DOT Duluth Ely - Hibbing
+36544	DOT DLH DOT Duluth
+36572	DOT DLH DOT Duluth
+36574	DOT 2H ILGN DOT Duluth Two Harbors - Illgen City
+36576	DOT DLH DOT Duluth
+36582	DOT DLH DOT Duluth
+36584	DOT DLH TAC DOT Duluth TAC
+36586	DOT DLH DOT Duluth
+36588	DOT DLH DOT Duluth
+36594	MSP 2800 DSP 'Brainerd ''2800'' Dispatch 
+36595	MSP 2800 RM 'Brainerd ''2800'' Roaming 
+36596	MSP 2800 T 2 'Brainerd ''2800'' TAC 2 
+36597	MSP 2800 A I 'Brainerd ''2800'' Accident Investigation 
+36598	MSP 2800 T 1 'Brainerd ''2800'' TAC 1 
+36600	MSP 2800 ALL 'Brainerd ''2800'' TAC 3 - All Call 
+36864	TEST TG A Test Talkgroup A
+36896	TEST TG B Test Talkgroup B
+36960	TEST TG D Test Talkgroup D
+36992	TEST TG E Test Talkgroup E
+37024	TEST TG F Test Talkgroup F
+37056	TEST MG ABC Test Multi-Talkgroup ABC
+37100	CLTN ROAM County Roam
+37101	CLTN LAW DIS Law Dispatch
+37102	CLTN LAW 2 Law 2
+37103	CLTN Carlton
+37104	CLTN LAW ? Law ?
+37105	CLTN Carlton
+37106	CLTN Carlton
+37107	CLTN Carlton
+37108	CLTN Carlton
+37109	CLTN Carlton
+37110	CLTN Carlton
+37111	CLTN Carlton
+37112	CLTN JAIL OP Jail Operations
+37113	CLTN Carlton
+37114	CLTN Carlton
+37115	CLTN Carlton
+37116	CLTN Carlton
+37117	CLTN Carlton
+37118	CLTN Carlton
+37119	CLTN Carlton
+37120	CLTN PS COM1 Public Safety Common 1
+37121	CLTN Carlton
+37122	CLTN PS COM2 Public Safety Common 2
+37123	CLTN Carlton
+37124	CLTN PS COM3 Public Safety Common 3
+37125	CLTN Carlton
+37126	CLTN PS COM4 Public Safety Common 4
+37127	CLTN Carlton
+37128	CLTN PS COM5 Public Safety Common 5
+37129	CLTN Carlton
+37130	CLTN PS COM6 Public Safety Common 6
+37131	CLTN Carlton
+37132	CLTN Carlton
+37133	CLTN Carlton
+37134	CLTN Carlton
+37135	CLTN Carlton
+37136	CLTN FIRE EM Fire - EMS Dispatch
+37137	CLTN Carlton
+37138	CLTN Carlton
+37139	CLTN Carlton
+37140	CLTN Carlton
+37141	CLTN Carlton
+37142	CLTN Carlton
+37143	CLTN Carlton
+37144	CLTN Carlton
+37145	CLTN Carlton
+37146	CLTN Carlton
+37147	CLTN Carlton
+37149	CLTN Carlton
+37150	CLTN Carlton
+39200	EMSMM-DLH-DI Mayo Duluth Dispatch
+39201	EMSMM-DLH-AM Mayo Duluth Patient Update
+39202	EMSMM-DLH-O1 Mayo Duluth Operations 1
+39203	EMSMM-DLH-O2 Mayo Duluth Operations 2
+43078	EMSMM-LFS-DI Mayo - Dispatch
+48414	DOT BJI ALL DOT Bemidji - All Call
+48416	DOT BJI DOT Bemidji
+48418	DOT BJI DOT Bemidji
+48420	DOT BJI EMER DOT Bemidji - Emergency to State Patrol
+48421	DOT BJI DOT Bemidji
+48424	DOT BJI DOT Bemidji
+48426	DOT BJI DOT Bemidji
+48428	DOT BJI EC DOT Bemidji - East Central - Bji. - D Rvr. - N Home
+48430	DOT BJI SW DOT Bemidji - Southwest - Crookston - EGF - Erskine
+48431	DOT BJI DOT Bemidji
+48434	DOT BJI DOT Bemidji
+48436	DOT BJI SE DOT Bemidji - Southeast - Bagley - P Rapids - Walker
+48438	DOT BJI TAC DOT Bemidji TAC
+48440	DOT BJI DOT Bemidji
+48442	DOT BJI DOT Bemidji
+48444	DOT BJI NE DOT Bemidji - Northeast - Roseau - Baudette - Grygla
+48446	DOT BJI NW DOT Bemidji - Northwest - TRF - Halllock - Warren - Karlstad
+48448	DOT BJI DOT Bemidji
+50300	HOSP - EMS HOSP - EMS
+50301	SANFORD FGO Sanford - Fargo
+50302	HOSP - EMS HOSP - EMS
+50303	ESSENTIA FGO Essentia - Fargo
+50304	SANFORD BJI Sanford - Bemidji
+50305	HOSP - EMS HOSP - EMS
+50310	HOSP - EMS HOSP - EMS
+50311	HOSP - EMS HOSP - EMS
+50316	FM AMB TRF FM Ambulance - Thief River Falls
+50317	HOSP - EMS Thief River Falls ??
+50318	ADA HOSP Bridges Med Center - Ada
+50319	HOSP - EMS HOSP - EMS
+50320	HOSP - EMS HOSP - EMS
+50321	HOSP - EMS HOSP - EMS
+50323	MAHNOMN HOSP Mahnomen Hospital
+50327	HOSP - EMS HOSP - EMS
+50330	ST JOES HOSP ST. Joe's Hospital - Park Rapids
+50332	HOSP - EMS HOSP - EMS
+50333	BAGLEY HOSP Bagley Hospital
+50334	HOSP - EMS HOSP - EMS
+50338	ST MARY HOSP ST. Mary's Hospital - Detroit Lakes
+50339	HOSP - EMS HOSP - EMS
+50340	SANFORD COMM Sanford Air Med Comm. Center - Sioux Falls
+50341	CASS LK IHS Cass Lake IHS
+2153	LL8
