@@ -11,6 +11,7 @@ open(PID,">R:\\scanner\\kill2.pid");
 print PID $$;
 close PID;
 
+my $spoketime = 0;
 my $sdrdir = "R:/scanner/SDRTrunk/recordings/";
 my $winmm = new Win32::MediaPlayer;
 
@@ -118,17 +119,32 @@ WAIT:
 	
 	print LOG sprintf("%.3f", $len/60) ."\n";
 	close LOG;	
-	
+
+	my $speak = 0;
 	if ($count > 100 && $count <= 1000) {
-		system(qq{perl R:\\scanner\\speak.pl "scanner is $count calls behind!"});  
-		sleep (5*60) if ($count > 500);
-		sleep abs($len) * 1.5;
+		my $tdiff = time - $spoketime;
+		$speak = 1 if $tdiff > 300;
+		if ($speak || !$spoketime) {
+			$spoketime = time;
+			system(qq{perl R:\\scanner\\speak.pl "scanner is $count calls behind!"});
+		}
+		
+		#sleep (5*60) if ($count > 500);
+		#sleep abs($len) * 1.5;
+		sleep 3;
 	} elsif ($count > 1000) {
-		system(qq{perl R:\\scanner\\speak.pl "scanner is way behind!"});  
-		sleep (15*60);
-		sleep abs($len) * 1.5;
+		$speak = 1 if (time - $spoketime > 900);
+		if ($speak || !$spoketime) {
+			$spoketime = time;
+			system(qq{perl R:\\scanner\\speak.pl "scanner is way behind!"}) if $speak;  
+			
+		}
+		#sleep (15*60);
+		#sleep abs($len) * 1.5;
+		sleep 5;
 	}
-sleep 2; #.1 seconds	
+
+	sleep 2; #.1 seconds	
 }
 
 sub get_sorted_files {

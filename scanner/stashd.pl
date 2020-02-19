@@ -46,7 +46,7 @@ while(1) {
 	} 
 	if (-e "D:\\front.txt" && !-e "D:\\security.disarmed") {
 		open(LOG,">>R:\\scanner\\altacast\\stream.log");
-		print LOG "[<a href=rtsp://scan:logic!\@scanner.bad.mn:8003/play2.sdp>FRONT</a>] <a href=/live2/image/jpeg.cgi>live jpeg</a>\n";
+		print LOG "[<a href=rtsp://scanner.bad.mn:8003/play2.sdp>FRONT</a>] <a href=/live2/image/jpeg.cgi>live jpeg</a>\n";
 		close LOG;    
 		system(qq{perl R:\\scanner\\speak.pl "Security alert, front"});  
 	}
@@ -58,12 +58,12 @@ while(1) {
 		my ($time,$temp,$memused) = split(',',$log_line);
 		print "$time - $temp - $memused\n";
 		if ($temp =~ /(\d+)/) { #150 is fine
-			if ($1 > 170) {
+			if ($1 > 173) { #hot!
 				system(qq{perl R:\\scanner\\speak.pl "Scanner alert, high CPU temperature!"});  
 			}
 		}
 		if ($memused =~ /(\d+)/) { #5000 is fine
-			if ($1 > 6000) {
+			if ($1 > 10000) { #alot!
 				system(qq{perl R:\\scanner\\speak.pl "Scanner alert, high memory use!"});  
 			}
 		}

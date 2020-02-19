@@ -6,10 +6,9 @@
         <script type="text/javascript" src="smoothie.js"></script>
         <script type="text/javascript" src="logtail_anoka.js"></script>
         <script type="text/javascript" src="logtail_ramsey.js"></script>
-        <link href="logtail.css" rel="stylesheet" type="text/css">
         <style>
             div.smoothie-chart-tooltip {
-              background: #444;
+              background: #888;
               padding: 1em;
               margin-top: 20px;
               font-family: consolas;
@@ -41,6 +40,8 @@
             <input type="hidden" id="RAMSEYTSBS">
 
             <input type="hidden" id="ONBATT">
+
+            <input type="hidden" id="ARMED">
             <script>
             function httpGetAsync(theUrl, callback)
                 {
@@ -66,22 +67,36 @@
                         document.getElementById("TX").value = res[7];
                         document.getElementById("ANOKATSBS").value = res[8];
                         document.getElementById("RAMSEYTSBS").value = res[9];
+                        document.getElementById("ARMED").value = res[10];
                     })
+
                     if (document.getElementById("ONBATT").value == 1) {
                         document.getElementById("batt").src = "1.png";
                     } else {
                         document.getElementById("batt").src = "0.png";
+                    }
+
+                    if (document.getElementById("ARMED").value == 1) {
+                        document.getElementById("armedlink").innerHTML = "<font size-2><a href=/disarm.pl>disarm</a></font>";
+                    } else {
+                        document.getElementById("armedlink").innerHTML = "<font size-2><a href=/arm.pl>arm</a></font>";
                     }
                 }, 1500);
                 </script>
 <table style="width: 100%; border-collapse: collapse;" border="0">
     <tbody>
       <tr>
-        <td valign="top" style="height: 160px;"><center><img id="batt" height="30"><br/>
-            <a border=1 href=rtsp://scan:logic!@scanner.bad.mn:8003/play2.sdp><img id="frontcam" border=0 alt="Front" src=/live2/image/jpeg.cgi height=65></a><a border=1 href=cam3.html><img id="backcam" border=0 alt="Back" src=/live3/shot.jpg height=65></a></center></td>
+        <td valign="top" style="height: 160px;">
+            <center>
+            <img id="batt" height="30"><br/>
+            <a border=1 href=rtsp://scanner.bad.mn:8003/play2.sdp><img id="frontcam" border=0 alt="Front" src=/live2/image/jpeg.cgi height=65></a>
+            <a border=1 href=cam3.html><img id="backcam" border=0 alt="Back" src=/live3/shot.jpg height=65></a><br/>
+            <div id="armedlink"></div>
+            </center>
+        </td>
         <td style="width: 20%;"><center><b>CPU Temp (&#8457;)</b><canvas id="temp" height="150"></canvas></center></td>
         <td style="width: 20%;"><center><b>RAM Used (Bytes)</b><canvas id="mem" height="150"></canvas></td>
-        <td style="width: 20%;"><center><b>Calls Queued/<font color="#0000FF">Minutes Behind</font></b><canvas id="stream" height="150"></canvas></td>
+        <td style="width: 20%;"><center><b>Call Queue/<font color="#0000FF">Minutes Behind</font></b><canvas id="stream" height="150"></canvas></td>
         <td style="width: 20%;"><center><b>Router RX/<font color="#0000FF">TX (Bytes/Second)</font></b><canvas id="router" height="150"></canvas></td>
         <td style="width: 20%;"><center><b>Anoka/<font color="#0000FF">Ramsey TSBKs/Second</font></b><canvas id="signal" height="150"></canvas></td>
       </tr>

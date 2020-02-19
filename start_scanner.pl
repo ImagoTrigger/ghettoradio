@@ -109,11 +109,13 @@ sleep 5;
 #system("net start Apache2.2");
 
  $ss->speak("scanner is back online!"); 
+`powershell New-SMBShare -Name "R" -Path "R:\" -FullAccess "user"`;
 
 print "sleeping...\n";
 sleep 15;
 
 #system("start E:\\min.bat");
 `powershell (New-Object -ComObject Shell.Application).MinimizeAll()`;
+
 
 print "Done!\n";

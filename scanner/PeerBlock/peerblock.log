@@ -7,3 +7,479 @@ Logging Started...
 [2/16/2020] [21:01:12.310] [05864]  [mainproc] [Main_ProcessDb]    Deleted history.db and peerblock.log files
 [2/16/2020] [21:01:12.310] [05864]  [mainproc] [Main_ProcessDb]    done with 'delete' type cleanup
 [2/16/2020] [21:01:12.310] [05864]  [mainproc] [Main_ProcessDb]  < Leaving routine.
+[2/16/2020] [23:43:41.371] [11008]  checking _tstat64
+[2/16/2020] [23:43:41.371] [11008]  checking filesize against user
+[2/17/2020] [03:19:26.375] [11008]  checking _tstat64
+[2/17/2020] [03:19:26.375] [11008]  checking filesize against user
+[2/17/2020] [04:20:07.569] [11008]  [mainproc] [Main_OnEndSession]    System requires immediate termination, due to shutdown/logoff.
+[2/17/2020] [04:20:07.569] [11008]  [mainproc] [Main_OnDestroy]    destroying main window
+[2/17/2020] [04:20:07.569] [11008]  [mainproc] [Main_OnDestroy]    writing config out to disk
+[2/17/2020] [04:20:07.569] [11008]  [Configuration] [Save]  > Entering routine.
+[2/17/2020] [04:20:07.574] [11008]  [Configuration] [Save]  < Leaving routine.
+[2/17/2020] [04:20:07.574] [11008]  [mainproc] [Main_OnDestroy]    finished saving config to peerblock.conf
+[2/17/2020] [04:20:07.728] [11008]  [mainproc] [Main_OnDestroy]    destroying main window tabs
+[2/17/2020] [04:20:07.728] [11008]  [mainproc] [Main_OnDestroy]    destroying tab: [Protection]
+[2/17/2020] [04:20:07.728] [11008]  [LogProc] [Log_OnDestroy]  > Entering routine.
+[2/17/2020] [04:20:07.728] [11008]  [LogProc] [Log_OnDestroy]    saving config
+[2/17/2020] [04:20:07.728] [11008]  [Configuration] [Save]  > Entering routine.
+[2/17/2020] [04:20:07.728] [11008]  [Configuration] [Save]  < Leaving routine.
+[2/17/2020] [04:20:07.728] [11008]  [LogProc] [Log_OnDestroy]    setting filter action-function to nothing
+[2/17/2020] [04:20:07.728] [11008]  [LogProc] [Log_OnInitDialog]    setting g_log to empty LogFilterAction
+[2/17/2020] [04:20:07.728] [11008]  [LogProc] [Log_OnDestroy]  < Leaving routine.
+[2/17/2020] [04:20:07.790] [11008]  [mainproc] [Main_OnDestroy]    tab [Protection] destroyed
+[2/17/2020] [04:20:07.790] [11008]  [mainproc] [Main_OnDestroy]    destroying tab: [Settings 1]
+[2/17/2020] [04:20:07.806] [11008]  [mainproc] [Main_OnDestroy]    tab [Settings 1] destroyed
+[2/17/2020] [04:20:07.806] [11008]  [mainproc] [Main_OnDestroy]    destroying tab: [Settings 2]
+[2/17/2020] [04:20:07.806] [11008]  [mainproc] [Main_OnDestroy]    tab [Settings 2] destroyed
+[2/17/2020] [04:20:07.806] [11008]  [mainproc] [Main_OnDestroy]    destroying tab: [Port Settings]
+
+
+--------------------------------------------------------------------------------
+
+Logging Started...
+[2/17/2020] [06:05:55.413] [06992]  PeerBlock Starting
+[2/17/2020] [06:05:55.413] [06992]  PeerBlock 1.2
+[2/17/2020] [06:05:55.413] [06992]  Flushed tracelog
+[2/17/2020] [06:05:55.413] [06992]  Running on OS: UNKNOWN OS 6.3 64-bit - Build:[9600], SP:[0.0]
+[2/17/2020] [06:05:55.413] [06992]  User running as Admin
+[2/17/2020] [06:05:55.413] [06992]  Created program mutex
+[2/17/2020] [06:05:55.417] [06992]  Initialized common controls
+[2/17/2020] [06:05:55.417] [06992]  Registered color picker
+[2/17/2020] [06:05:55.419] [06992]  Initialized winsock
+[2/17/2020] [06:05:55.419] [06992]  Successfully PreventSetUnhandledExceptionFilter()
+[2/17/2020] [06:05:55.419] [06992]  Creating main UI window
+[2/17/2020] [06:05:55.425] [06992]  [mainproc] [Main_OnInitDialog]  > Entering routine.
+[2/17/2020] [06:05:55.425] [06992]  [mainproc] [Main_OnInitDialog]    loading config
+[2/17/2020] [06:05:55.425] [06992]  [Configuration] [Load]  > Entering routine.
+[2/17/2020] [06:05:55.425] [06992]  [Configuration] [LoadFile]    loading file:[R:\scanner\PeerBlock\peerblock.conf]
+[2/17/2020] [06:05:55.425] [06992]  [Configuration] [LoadFile]    about to memory-map file - size: [6098]
+[2/17/2020] [06:05:55.425] [06992]  [Configuration] [LoadFile]    Successfully loaded file:[R:\scanner\PeerBlock\peerblock.conf]
+[2/17/2020] [06:05:55.425] [06992]  [Configuration] [Load]    Loaded configuration file [R:\scanner\PeerBlock\peerblock.conf]
+[2/17/2020] [06:05:55.426] [06992]  [Configuration] [Load]    found peerblock configuration file
+[2/17/2020] [06:05:55.426] [06992]  [Configuration] [Load]    parsing config root element
+[2/17/2020] [06:05:55.426] [06992]  [Configuration] [Load]    parsing config settings element
+[2/17/2020] [06:05:55.426] [06992]  [Configuration] [Load]    parsing config logging element
+[2/17/2020] [06:05:55.426] [06992]  [Configuration] [Load]    parsing config tracelogging element
+[2/17/2020] [06:05:55.426] [06992]  [Configuration] [Load]    parsing config colors element
+[2/17/2020] [06:05:55.427] [06992]  [Configuration] [Load]    parsing config windowing element
+[2/17/2020] [06:05:55.427] [06992]  [Configuration] [Load]    parsing config updates element
+[2/17/2020] [06:05:55.427] [06992]  [Configuration] [Load]    parsing config messages element
+[2/17/2020] [06:05:55.427] [06992]  [Configuration] [Load]    parsing config ports element
+[2/17/2020] [06:05:55.427] [06992]  [Configuration] [Load]    parsing config lists element
+[2/17/2020] [06:05:55.427] [06992]  [Configuration] [Load]    parsing I-Blocklist Subscription element
+[2/17/2020] [06:05:55.427] [06992]  [Configuration] [Load]  < Leaving routine.
+[2/17/2020] [06:05:55.427] [06992]  [mainproc] [Main_OnInitDialog]    Config loaded.
+[2/17/2020] [06:05:55.427] [06992]  [mainproc] [Main_OnInitDialog]    checking if previous-release updates are required
+[2/17/2020] [06:05:55.427] [06992]  [mainproc] [PerformPrevRelUpdates]    no version change, so no updates to perform
+[2/17/2020] [06:05:55.427] [06992]  [mainproc] [Main_OnInitDialog]    resetting g_filter
+[2/17/2020] [06:05:55.427] [06992]  [driver] [load(2)]    preparing to load driver - name: [pbfilter], file: [\??\R:\scanner\PeerBlock\pbfilter.sys]
+[2/17/2020] [06:05:55.427] [06992]  [driver] [load(3)]    loading driver - name: [pbfilter], file: [\??\R:\scanner\PeerBlock\pbfilter.sys], devfile: [\\.\pbfilter]
+[2/17/2020] [06:05:55.428] [06992]  [driver] [load(3)]  * Error:  driver not currently installed as service
+[2/17/2020] [06:05:55.428] [06992]  [driver] [load(3)]    - err:[1073], desc:[The specified service already exists.
+]
+[2/17/2020] [06:05:55.429] [06992]  [driver] [load(3)]    service name: [\??\R:\scanner\PeerBlock\pbfilter.sys], file name: [\??\R:\scanner\PeerBlock\pbfilter.sys]
+[2/17/2020] [06:05:55.429] [06992]  [driver] [load(3)]    driver-service not running
+[2/17/2020] [06:05:55.429] [06992]  [driver] [load(3)]    - service state: [1]
+[2/17/2020] [06:05:55.429] [06992]  [driver] [start]    starting driver
+[2/17/2020] [06:05:55.432] [06992]  [driver] [start]    getting handle to driver - devfile: [\\.\pbfilter]
+[2/17/2020] [06:05:55.432] [06992]  [driver] [start]    started driver
+[2/17/2020] [06:05:55.435] [06992]  [pbfilter_base] [start_thread]    creating thread_thunk
+[2/17/2020] [06:05:55.435] [06992]  [mainproc] [Main_OnInitDialog]    g_filter reset.
+[2/17/2020] [06:05:55.435] [06992]  [mainproc] [Main_OnInitDialog]    setting block, forcing to Enabled
+[2/17/2020] [06:05:55.435] [06992]  [mainproc] [SetBlock]   setting PeerBlock blocking from [1] to [1]
+[2/17/2020] [06:05:55.435] [06992]  [pbfilter_base] [setblock]    acquiring lock
+[2/17/2020] [06:05:55.435] [06992]  [pbfilter_base] [setblock]    resetting m_block to: [true]
+[2/17/2020] [06:05:55.435] [06992]  [pbfilter_base] [setblock]    sending block request to driver...
+[2/17/2020] [06:05:55.435] [06992]  [pbfilter_base] [setblock]    ...block request sent
+[2/17/2020] [06:05:55.435] [06992]  [pbfilter_base] [setblock]    mutex leaving scope; releasing lock
+[2/17/2020] [06:05:55.436] [06992]  [pbfilter_base] [setdestinationports]  > Entering routine.
+[2/17/2020] [06:05:55.436] [06992]  [pbfilter_base] [setdestinationports]    finished parsing ports
+[2/17/2020] [06:05:55.436] [06992]  [pbfilter_base] [setdestinationports]  < Leaving Routine.
+[2/17/2020] [06:05:55.436] [06992]  [pbfilter_base] [setsourceports]  > Entering routine.
+[2/17/2020] [06:05:55.436] [06992]  [pbfilter_base] [setsourceports]    finished parsing ports
+[2/17/2020] [06:05:55.436] [06992]  [pbfilter_base] [setsourceports]  < Leaving Routine.
+[2/17/2020] [06:05:55.436] [06992]  [mainproc] [Main_OnInitDialog]    getting tabs
+[2/17/2020] [06:05:55.458] [06992]  [LogProc] [Log_OnInitDialog]    updating status
+[2/17/2020] [06:05:55.558] [06992]  [mainproc] [Main_OnInitDialog]    loading lists
+[2/17/2020] [06:05:55.558] [06992]  [LoadLists]  > Entering routine.
+[2/17/2020] [06:05:55.558] [06992]  [LoadLists]    generating cache
+[2/17/2020] [06:05:55.558] [06992]  [GenCache]  > Entering routine.
+[2/17/2020] [06:05:55.559] [06992]  [GenCache]    cache not valid
+[2/17/2020] [06:05:55.559] [06992]  [GenCache]    no window, creating dialog box
+[2/17/2020] [06:05:55.560] [06992]  [Loading_DlgProc]    msg: WM_INITDIALOG.
+[2/17/2020] [06:05:55.560] [06992]  [Loading_OnInitDialog]  > Entering routine.
+[2/17/2020] [06:05:55.560] [06992]  [Loading_OnInitDialog]    spawning thread to handle loading
+[2/17/2020] [06:05:55.560] [06992]  [Loading_OnInitDialog]  < Leaving routine.
+[2/17/2020] [06:05:55.560] [03932]  [LoadingThread] [operator()]  > Entering routine.
+[2/17/2020] [06:05:55.562] [03932]  [GenCacheFuncs] [Init]  > Entering routine.
+[2/17/2020] [06:05:55.562] [03932]  [GenCacheFuncs] [Init]    num static lists: [8]
+[2/17/2020] [06:05:55.562] [03932]  [GenCacheFuncs] [Init]    num dynamic lists: [0]
+[2/17/2020] [06:05:55.562] [03932]  [GenCacheFuncs] [Init]  < Leaving routine.
+[2/17/2020] [06:05:55.562] [03932]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/17/2020] [06:05:55.562] [03932]  [GenCacheFuncs] [Process]    static list
+[2/17/2020] [06:05:55.562] [03932]  [GenCacheFuncs] [Process]    list is enabled
+[2/17/2020] [06:05:55.562] [03932]  [GenCacheFuncs] [Process]    loading list
+[2/17/2020] [06:05:55.563] [03932]  [GenCacheFuncs] [Process]    list loaded
+[2/17/2020] [06:05:55.563] [03932]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/17/2020] [06:05:55.563] [03932]  [LoadingThread] [operator()]    updating progress
+[2/17/2020] [06:05:55.566] [03932]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/17/2020] [06:05:55.566] [03932]  [GenCacheFuncs] [Process]    static list
+[2/17/2020] [06:05:55.566] [03932]  [GenCacheFuncs] [Process]    list is enabled
+[2/17/2020] [06:05:55.566] [03932]  [GenCacheFuncs] [Process]    loading list
+[2/17/2020] [06:05:55.566] [03932]  [GenCacheFuncs] [Process]    list loaded
+[2/17/2020] [06:05:55.566] [03932]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/17/2020] [06:05:55.566] [03932]  [LoadingThread] [operator()]    updating progress
+[2/17/2020] [06:05:55.567] [03932]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/17/2020] [06:05:55.567] [03932]  [GenCacheFuncs] [Process]    static list
+[2/17/2020] [06:05:55.567] [03932]  [GenCacheFuncs] [Process]    list is enabled
+[2/17/2020] [06:05:55.567] [03932]  [GenCacheFuncs] [Process]    loading list
+[2/17/2020] [06:05:55.567] [03932]  [GenCacheFuncs] [Process]    list loaded
+[2/17/2020] [06:05:55.567] [03932]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/17/2020] [06:05:55.567] [03932]  [LoadingThread] [operator()]    updating progress
+[2/17/2020] [06:05:55.568] [03932]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/17/2020] [06:05:55.568] [03932]  [GenCacheFuncs] [Process]    static list
+[2/17/2020] [06:05:55.568] [03932]  [GenCacheFuncs] [Process]    list is enabled
+[2/17/2020] [06:05:55.568] [03932]  [GenCacheFuncs] [Process]    loading list
+[2/17/2020] [06:05:55.571] [03932]  [GenCacheFuncs] [Process]    list loaded
+[2/17/2020] [06:05:55.571] [03932]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/17/2020] [06:05:55.571] [03932]  [LoadingThread] [operator()]    updating progress
+[2/17/2020] [06:05:55.572] [03932]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/17/2020] [06:05:55.572] [03932]  [GenCacheFuncs] [Process]    static list
+[2/17/2020] [06:05:55.572] [03932]  [GenCacheFuncs] [Process]    list is enabled
+[2/17/2020] [06:05:55.572] [03932]  [GenCacheFuncs] [Process]    loading list
+[2/17/2020] [06:05:55.572] [03932]  [GenCacheFuncs] [Process]    list loaded
+[2/17/2020] [06:05:55.572] [03932]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/17/2020] [06:05:55.572] [03932]  [LoadingThread] [operator()]    updating progress
+[2/17/2020] [06:05:55.573] [03932]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/17/2020] [06:05:55.573] [03932]  [GenCacheFuncs] [Process]    static list
+[2/17/2020] [06:05:55.573] [03932]  [GenCacheFuncs] [Process]    list is enabled
+[2/17/2020] [06:05:55.573] [03932]  [GenCacheFuncs] [Process]    loading list
+[2/17/2020] [06:05:55.573] [03932]  [GenCacheFuncs] [Process]    list loaded
+[2/17/2020] [06:05:55.573] [03932]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/17/2020] [06:05:55.573] [03932]  [LoadingThread] [operator()]    updating progress
+[2/17/2020] [06:05:55.574] [03932]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/17/2020] [06:05:55.574] [03932]  [GenCacheFuncs] [Process]    static list
+[2/17/2020] [06:05:55.574] [03932]  [GenCacheFuncs] [Process]    list is enabled
+[2/17/2020] [06:05:55.574] [03932]  [GenCacheFuncs] [Process]    loading list
+[2/17/2020] [06:05:55.574] [03932]  [GenCacheFuncs] [Process]    list loaded
+[2/17/2020] [06:05:55.574] [03932]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/17/2020] [06:05:55.575] [03932]  [LoadingThread] [operator()]    updating progress
+[2/17/2020] [06:05:55.575] [03932]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/17/2020] [06:05:55.575] [03932]  [GenCacheFuncs] [Process]    static list
+[2/17/2020] [06:05:55.575] [03932]  [GenCacheFuncs] [Process]    list is enabled
+[2/17/2020] [06:05:55.575] [03932]  [GenCacheFuncs] [Process]    loading list
+[2/17/2020] [06:05:55.575] [03932]  [GenCacheFuncs] [Process]    list loaded
+[2/17/2020] [06:05:55.575] [03932]  [GenCacheFuncs] [Process]    stat funkiness
+[2/17/2020] [06:05:55.576] [03932]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/17/2020] [06:05:55.576] [03932]  [LoadingThread] [operator()]    updating progress
+[2/17/2020] [06:05:55.585] [03932]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/17/2020] [06:05:55.585] [03932]  [GenCacheFuncs] [Process]    opt
+[2/17/2020] [06:05:55.586] [03932]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/17/2020] [06:05:55.586] [03932]  [LoadingThread] [operator()]    updating progress
+[2/17/2020] [06:05:55.586] [03932]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/17/2020] [06:05:55.586] [03932]  [GenCacheFuncs] [Process]    save
+[2/17/2020] [06:05:55.587] [03932]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/17/2020] [06:05:55.587] [03932]  [LoadingThread] [operator()]    updating progress
+[2/17/2020] [06:05:55.587] [03932]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/17/2020] [06:05:55.587] [03932]  [GenCacheFuncs] [Process]    default
+[2/17/2020] [06:05:55.587] [03932]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/17/2020] [06:05:55.777] [03932]  [LoadingThread] [operator()]  < Leaving routine.
+[2/17/2020] [06:05:55.781] [06992]  [Loading_DlgProc]    msg: WM_DESTROY.
+[2/17/2020] [06:05:55.781] [06992]  [GenCache]  < Leaving routine (true).
+[2/17/2020] [06:05:55.781] [06992]  [LoadLists]    performing random setup
+[2/17/2020] [06:05:55.797] [06992]  [LoadLists]    setting up filter-driver ranges
+[2/17/2020] [06:05:55.797] [06992]  [LoadLists]    driver ranges set
+[2/17/2020] [06:05:55.798] [06992]  [LoadLists]  < Exiting routine.
+[2/17/2020] [06:05:55.798] [06992]  [mainproc] [Main_OnInitDialog]    Lists loaded.
+[2/17/2020] [06:05:55.798] [06992]  [mainproc] [Main_OnInitDialog]    doing other stuff
+[2/17/2020] [06:05:55.832] [06992]  [mainproc] [Main_OnInitDialog]    updating at startup
+[2/17/2020] [06:05:55.832] [06992]  [UpdateLists]  > Entering routine.
+[2/17/2020] [06:05:55.832] [06992]  [UpdateLists]    g_updater null, found parent, creating dialog-box
+[2/17/2020] [06:05:55.840] [06992]  [UpdateLists_OnInitDialog]  > Entering routine.
+[2/17/2020] [06:05:55.842] [06992]  [UpdateLists_OnInitDialog]    spawning updatethread
+[2/17/2020] [06:05:55.843] [06992]  [UpdateThread] [UpdateThread]    created thread class
+[2/17/2020] [06:05:55.843] [06992]  [UpdateThread] [UpdateThread]    destroyed thread class
+[2/17/2020] [06:05:55.843] [06992]  [UpdateLists_OnInitDialog]  < Leaving routine.
+[2/17/2020] [06:05:55.852] [03472]  [UpdateThread] [_Process]    finished downloading updates
+[2/17/2020] [06:05:55.852] [03472]  [UpdateThread] [_Process]    starting countdown, since UpdateCountdown > 0
+[2/17/2020] [06:05:56.843] [06992]  [UpdateLists_OnTimer]  > Entering routine.
+[2/17/2020] [06:05:56.845] [06992]  [UpdateLists_OnTimer]  < Leaving routine.
+[2/17/2020] [06:05:56.845] [06992]  [UpdateLists_OnDestroy]  > Entering routine.
+[2/17/2020] [06:05:56.845] [06992]  [UpdateLists_OnDestroy]    loading lists
+[2/17/2020] [06:05:56.845] [06992]  [UpdateLists_OnDestroy]    resetting update-thread
+[2/17/2020] [06:05:56.845] [06992]  [UpdateLists_OnDestroy]    updating list columns
+[2/17/2020] [06:05:56.845] [06992]  [UpdateLists_OnDestroy]  < Leaving routine.
+[2/17/2020] [06:05:56.846] [06992]  [UpdateLists]    dialog box finished running
+[2/17/2020] [06:05:56.846] [06992]  [UpdateLists]    resetting LastUpdate time
+[2/17/2020] [06:05:56.846] [06992]  [UpdateLists]  < Leaving routine.
+[2/17/2020] [06:05:56.846] [06992]  [LoadLists]  > Entering routine.
+[2/17/2020] [06:05:56.846] [06992]  [LoadLists]    generating cache
+[2/17/2020] [06:05:56.846] [06992]  [GenCache]  > Entering routine.
+[2/17/2020] [06:05:56.847] [06992]  [GenCache]  < Leaving routine (false).
+[2/17/2020] [06:05:56.847] [06992]  [LoadLists]    loading lists
+[2/17/2020] [06:05:56.847] [06992]  [LoadLists]    performing random setup
+[2/17/2020] [06:05:56.855] [06992]  [LoadLists]    setting up filter-driver ranges
+[2/17/2020] [06:05:56.855] [06992]  [LoadLists]    driver ranges set
+[2/17/2020] [06:05:56.856] [06992]  [LoadLists]  < Exiting routine.
+[2/17/2020] [06:05:56.856] [06992]  Created main UI window
+[2/17/2020] [06:05:56.856] [06992]  [Configuration] [Save]  > Entering routine.
+[2/17/2020] [06:05:56.857] [06992]  [Configuration] [Save]  < Leaving routine.
+[2/17/2020] [06:05:56.857] [06992]  Starting message-loop
+[2/17/2020] [06:05:59.261] [06604]  [LogFilterAction] [operator()]    Stopping default Allowed Packet logging
+[2/17/2020] [06:06:10.458] [06992]  checking _tstat64
+[2/17/2020] [06:06:10.459] [06992]  checking filesize against user
+[2/17/2020] [14:36:25.454] [06992]  checking _tstat64
+[2/17/2020] [14:36:25.454] [06992]  checking filesize against user
+[2/18/2020] [02:20:40.471] [06992]  checking _tstat64
+[2/18/2020] [02:20:40.473] [06992]  checking filesize against user
+[2/18/2020] [04:20:08.570] [06992]  [mainproc] [Main_OnEndSession]    System requires immediate termination, due to shutdown/logoff.
+[2/18/2020] [04:20:08.570] [06992]  [mainproc] [Main_OnDestroy]    destroying main window
+[2/18/2020] [04:20:08.570] [06992]  [mainproc] [Main_OnDestroy]    writing config out to disk
+[2/18/2020] [04:20:08.570] [06992]  [Configuration] [Save]  > Entering routine.
+[2/18/2020] [04:20:08.574] [06992]  [Configuration] [Save]  < Leaving routine.
+[2/18/2020] [04:20:08.574] [06992]  [mainproc] [Main_OnDestroy]    finished saving config to peerblock.conf
+[2/18/2020] [04:20:08.695] [06992]  [mainproc] [Main_OnDestroy]    destroying main window tabs
+[2/18/2020] [04:20:08.695] [06992]  [mainproc] [Main_OnDestroy]    destroying tab: [Protection]
+[2/18/2020] [04:20:08.711] [06992]  [LogProc] [Log_OnDestroy]  > Entering routine.
+[2/18/2020] [04:20:08.711] [06992]  [LogProc] [Log_OnDestroy]    saving config
+[2/18/2020] [04:20:08.711] [06992]  [Configuration] [Save]  > Entering routine.
+[2/18/2020] [04:20:08.711] [06992]  [Configuration] [Save]  < Leaving routine.
+[2/18/2020] [04:20:08.711] [06992]  [LogProc] [Log_OnDestroy]    setting filter action-function to nothing
+[2/18/2020] [04:20:08.711] [06992]  [LogProc] [Log_OnInitDialog]    setting g_log to empty LogFilterAction
+[2/18/2020] [04:20:08.711] [06992]  [LogProc] [Log_OnDestroy]  < Leaving routine.
+[2/18/2020] [04:20:08.805] [06992]  [mainproc] [Main_OnDestroy]    tab [Protection] destroyed
+[2/18/2020] [04:20:08.805] [06992]  [mainproc] [Main_OnDestroy]    destroying tab: [Settings 1]
+[2/18/2020] [04:20:08.805] [06992]  [mainproc] [Main_OnDestroy]    tab [Settings 1] destroyed
+[2/18/2020] [04:20:08.805] [06992]  [mainproc] [Main_OnDestroy]    destroying tab: [Settings 2]
+[2/18/2020] [04:20:08.820] [06992]  [mainproc] [Main_OnDestroy]    tab [Settings 2] destroyed
+[2/18/2020] [04:20:08.820] [06992]  [mainproc] [Main_OnDestroy]    destroying tab: [Port Settings]
+
+
+--------------------------------------------------------------------------------
+
+Logging Started...
+[2/18/2020] [04:21:18.022] [10536]  PeerBlock Starting
+[2/18/2020] [04:21:18.023] [10536]  PeerBlock 1.2
+[2/18/2020] [04:21:18.023] [10536]  Flushed tracelog
+[2/18/2020] [04:21:18.023] [10536]  Running on OS: UNKNOWN OS 6.3 64-bit - Build:[9600], SP:[0.0]
+[2/18/2020] [04:21:18.023] [10536]  User running as Admin
+[2/18/2020] [04:21:18.023] [10536]  Created program mutex
+[2/18/2020] [04:21:18.026] [10536]  Initialized common controls
+[2/18/2020] [04:21:18.026] [10536]  Registered color picker
+[2/18/2020] [04:21:18.027] [10536]  Initialized winsock
+[2/18/2020] [04:21:18.027] [10536]  Successfully PreventSetUnhandledExceptionFilter()
+[2/18/2020] [04:21:18.028] [10536]  Creating main UI window
+[2/18/2020] [04:21:18.033] [10536]  [mainproc] [Main_OnInitDialog]  > Entering routine.
+[2/18/2020] [04:21:18.034] [10536]  [mainproc] [Main_OnInitDialog]    loading config
+[2/18/2020] [04:21:18.034] [10536]  [Configuration] [Load]  > Entering routine.
+[2/18/2020] [04:21:18.034] [10536]  [Configuration] [LoadFile]    loading file:[R:\scanner\PeerBlock\peerblock.conf]
+[2/18/2020] [04:21:18.034] [10536]  [Configuration] [LoadFile]    about to memory-map file - size: [6098]
+[2/18/2020] [04:21:18.034] [10536]  [Configuration] [LoadFile]    Successfully loaded file:[R:\scanner\PeerBlock\peerblock.conf]
+[2/18/2020] [04:21:18.034] [10536]  [Configuration] [Load]    Loaded configuration file [R:\scanner\PeerBlock\peerblock.conf]
+[2/18/2020] [04:21:18.035] [10536]  [Configuration] [Load]    found peerblock configuration file
+[2/18/2020] [04:21:18.035] [10536]  [Configuration] [Load]    parsing config root element
+[2/18/2020] [04:21:18.035] [10536]  [Configuration] [Load]    parsing config settings element
+[2/18/2020] [04:21:18.035] [10536]  [Configuration] [Load]    parsing config logging element
+[2/18/2020] [04:21:18.035] [10536]  [Configuration] [Load]    parsing config tracelogging element
+[2/18/2020] [04:21:18.035] [10536]  [Configuration] [Load]    parsing config colors element
+[2/18/2020] [04:21:18.035] [10536]  [Configuration] [Load]    parsing config windowing element
+[2/18/2020] [04:21:18.036] [10536]  [Configuration] [Load]    parsing config updates element
+[2/18/2020] [04:21:18.036] [10536]  [Configuration] [Load]    parsing config messages element
+[2/18/2020] [04:21:18.036] [10536]  [Configuration] [Load]    parsing config ports element
+[2/18/2020] [04:21:18.036] [10536]  [Configuration] [Load]    parsing config lists element
+[2/18/2020] [04:21:18.036] [10536]  [Configuration] [Load]    parsing I-Blocklist Subscription element
+[2/18/2020] [04:21:18.036] [10536]  [Configuration] [Load]  < Leaving routine.
+[2/18/2020] [04:21:18.036] [10536]  [mainproc] [Main_OnInitDialog]    Config loaded.
+[2/18/2020] [04:21:18.036] [10536]  [mainproc] [Main_OnInitDialog]    checking if previous-release updates are required
+[2/18/2020] [04:21:18.036] [10536]  [mainproc] [PerformPrevRelUpdates]    no version change, so no updates to perform
+[2/18/2020] [04:21:18.037] [10536]  [mainproc] [Main_OnInitDialog]    resetting g_filter
+[2/18/2020] [04:21:18.037] [10536]  [driver] [load(2)]    preparing to load driver - name: [pbfilter], file: [\??\R:\scanner\PeerBlock\pbfilter.sys]
+[2/18/2020] [04:21:18.037] [10536]  [driver] [load(3)]    loading driver - name: [pbfilter], file: [\??\R:\scanner\PeerBlock\pbfilter.sys], devfile: [\\.\pbfilter]
+[2/18/2020] [04:21:18.038] [10536]  [driver] [load(3)]  * Error:  driver not currently installed as service
+[2/18/2020] [04:21:18.038] [10536]  [driver] [load(3)]    - err:[1073], desc:[The specified service already exists.
+]
+[2/18/2020] [04:21:18.039] [10536]  [driver] [load(3)]    service name: [\??\R:\scanner\PeerBlock\pbfilter.sys], file name: [\??\R:\scanner\PeerBlock\pbfilter.sys]
+[2/18/2020] [04:21:18.039] [10536]  [driver] [load(3)]    driver-service not running
+[2/18/2020] [04:21:18.039] [10536]  [driver] [load(3)]    - service state: [1]
+[2/18/2020] [04:21:18.039] [10536]  [driver] [start]    starting driver
+[2/18/2020] [04:21:18.042] [10536]  [driver] [start]    getting handle to driver - devfile: [\\.\pbfilter]
+[2/18/2020] [04:21:18.042] [10536]  [driver] [start]    started driver
+[2/18/2020] [04:21:18.045] [10536]  [pbfilter_base] [start_thread]    creating thread_thunk
+[2/18/2020] [04:21:18.045] [10536]  [mainproc] [Main_OnInitDialog]    g_filter reset.
+[2/18/2020] [04:21:18.045] [10536]  [mainproc] [Main_OnInitDialog]    setting block, forcing to Enabled
+[2/18/2020] [04:21:18.045] [10536]  [mainproc] [SetBlock]   setting PeerBlock blocking from [1] to [1]
+[2/18/2020] [04:21:18.046] [10536]  [pbfilter_base] [setblock]    acquiring lock
+[2/18/2020] [04:21:18.046] [10536]  [pbfilter_base] [setblock]    resetting m_block to: [true]
+[2/18/2020] [04:21:18.046] [10536]  [pbfilter_base] [setblock]    sending block request to driver...
+[2/18/2020] [04:21:18.046] [10536]  [pbfilter_base] [setblock]    ...block request sent
+[2/18/2020] [04:21:18.046] [10536]  [pbfilter_base] [setblock]    mutex leaving scope; releasing lock
+[2/18/2020] [04:21:18.047] [10536]  [pbfilter_base] [setdestinationports]  > Entering routine.
+[2/18/2020] [04:21:18.047] [10536]  [pbfilter_base] [setdestinationports]    finished parsing ports
+[2/18/2020] [04:21:18.047] [10536]  [pbfilter_base] [setdestinationports]  < Leaving Routine.
+[2/18/2020] [04:21:18.047] [10536]  [pbfilter_base] [setsourceports]  > Entering routine.
+[2/18/2020] [04:21:18.047] [10536]  [pbfilter_base] [setsourceports]    finished parsing ports
+[2/18/2020] [04:21:18.047] [10536]  [pbfilter_base] [setsourceports]  < Leaving Routine.
+[2/18/2020] [04:21:18.048] [10536]  [mainproc] [Main_OnInitDialog]    getting tabs
+[2/18/2020] [04:21:18.075] [10536]  [LogProc] [Log_OnInitDialog]    updating status
+[2/18/2020] [04:21:18.172] [10536]  [mainproc] [Main_OnInitDialog]    loading lists
+[2/18/2020] [04:21:18.172] [10536]  [LoadLists]  > Entering routine.
+[2/18/2020] [04:21:18.172] [10536]  [LoadLists]    generating cache
+[2/18/2020] [04:21:18.172] [10536]  [GenCache]  > Entering routine.
+[2/18/2020] [04:21:18.173] [10536]  [GenCache]    cache not valid
+[2/18/2020] [04:21:18.173] [10536]  [GenCache]    no window, creating dialog box
+[2/18/2020] [04:21:18.174] [10536]  [Loading_DlgProc]    msg: WM_INITDIALOG.
+[2/18/2020] [04:21:18.175] [10536]  [Loading_OnInitDialog]  > Entering routine.
+[2/18/2020] [04:21:18.175] [10536]  [Loading_OnInitDialog]    spawning thread to handle loading
+[2/18/2020] [04:21:18.175] [10536]  [Loading_OnInitDialog]  < Leaving routine.
+[2/18/2020] [04:21:18.175] [10548]  [LoadingThread] [operator()]  > Entering routine.
+[2/18/2020] [04:21:18.177] [10548]  [GenCacheFuncs] [Init]  > Entering routine.
+[2/18/2020] [04:21:18.177] [10548]  [GenCacheFuncs] [Init]    num static lists: [8]
+[2/18/2020] [04:21:18.177] [10548]  [GenCacheFuncs] [Init]    num dynamic lists: [0]
+[2/18/2020] [04:21:18.177] [10548]  [GenCacheFuncs] [Init]  < Leaving routine.
+[2/18/2020] [04:21:18.177] [10548]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/18/2020] [04:21:18.177] [10548]  [GenCacheFuncs] [Process]    static list
+[2/18/2020] [04:21:18.178] [10548]  [GenCacheFuncs] [Process]    list is enabled
+[2/18/2020] [04:21:18.178] [10548]  [GenCacheFuncs] [Process]    loading list
+[2/18/2020] [04:21:18.178] [10548]  [GenCacheFuncs] [Process]    list loaded
+[2/18/2020] [04:21:18.178] [10548]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/18/2020] [04:21:18.178] [10548]  [LoadingThread] [operator()]    updating progress
+[2/18/2020] [04:21:18.181] [10548]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/18/2020] [04:21:18.181] [10548]  [GenCacheFuncs] [Process]    static list
+[2/18/2020] [04:21:18.181] [10548]  [GenCacheFuncs] [Process]    list is enabled
+[2/18/2020] [04:21:18.181] [10548]  [GenCacheFuncs] [Process]    loading list
+[2/18/2020] [04:21:18.182] [10548]  [GenCacheFuncs] [Process]    list loaded
+[2/18/2020] [04:21:18.182] [10548]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/18/2020] [04:21:18.182] [10548]  [LoadingThread] [operator()]    updating progress
+[2/18/2020] [04:21:18.183] [10548]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/18/2020] [04:21:18.183] [10548]  [GenCacheFuncs] [Process]    static list
+[2/18/2020] [04:21:18.183] [10548]  [GenCacheFuncs] [Process]    list is enabled
+[2/18/2020] [04:21:18.183] [10548]  [GenCacheFuncs] [Process]    loading list
+[2/18/2020] [04:21:18.184] [10548]  [GenCacheFuncs] [Process]    list loaded
+[2/18/2020] [04:21:18.184] [10548]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/18/2020] [04:21:18.184] [10548]  [LoadingThread] [operator()]    updating progress
+[2/18/2020] [04:21:18.184] [10548]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/18/2020] [04:21:18.184] [10548]  [GenCacheFuncs] [Process]    static list
+[2/18/2020] [04:21:18.185] [10548]  [GenCacheFuncs] [Process]    list is enabled
+[2/18/2020] [04:21:18.185] [10548]  [GenCacheFuncs] [Process]    loading list
+[2/18/2020] [04:21:18.188] [10548]  [GenCacheFuncs] [Process]    list loaded
+[2/18/2020] [04:21:18.188] [10548]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/18/2020] [04:21:18.188] [10548]  [LoadingThread] [operator()]    updating progress
+[2/18/2020] [04:21:18.189] [10548]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/18/2020] [04:21:18.189] [10548]  [GenCacheFuncs] [Process]    static list
+[2/18/2020] [04:21:18.189] [10548]  [GenCacheFuncs] [Process]    list is enabled
+[2/18/2020] [04:21:18.189] [10548]  [GenCacheFuncs] [Process]    loading list
+[2/18/2020] [04:21:18.189] [10548]  [GenCacheFuncs] [Process]    list loaded
+[2/18/2020] [04:21:18.189] [10548]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/18/2020] [04:21:18.190] [10548]  [LoadingThread] [operator()]    updating progress
+[2/18/2020] [04:21:18.190] [10548]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/18/2020] [04:21:18.190] [10548]  [GenCacheFuncs] [Process]    static list
+[2/18/2020] [04:21:18.190] [10548]  [GenCacheFuncs] [Process]    list is enabled
+[2/18/2020] [04:21:18.190] [10548]  [GenCacheFuncs] [Process]    loading list
+[2/18/2020] [04:21:18.191] [10548]  [GenCacheFuncs] [Process]    list loaded
+[2/18/2020] [04:21:18.191] [10548]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/18/2020] [04:21:18.191] [10548]  [LoadingThread] [operator()]    updating progress
+[2/18/2020] [04:21:18.191] [10548]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/18/2020] [04:21:18.191] [10548]  [GenCacheFuncs] [Process]    static list
+[2/18/2020] [04:21:18.191] [10548]  [GenCacheFuncs] [Process]    list is enabled
+[2/18/2020] [04:21:18.191] [10548]  [GenCacheFuncs] [Process]    loading list
+[2/18/2020] [04:21:18.192] [10548]  [GenCacheFuncs] [Process]    list loaded
+[2/18/2020] [04:21:18.192] [10548]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/18/2020] [04:21:18.192] [10548]  [LoadingThread] [operator()]    updating progress
+[2/18/2020] [04:21:18.193] [10548]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/18/2020] [04:21:18.193] [10548]  [GenCacheFuncs] [Process]    static list
+[2/18/2020] [04:21:18.193] [10548]  [GenCacheFuncs] [Process]    list is enabled
+[2/18/2020] [04:21:18.193] [10548]  [GenCacheFuncs] [Process]    loading list
+[2/18/2020] [04:21:18.193] [10548]  [GenCacheFuncs] [Process]    list loaded
+[2/18/2020] [04:21:18.193] [10548]  [GenCacheFuncs] [Process]    stat funkiness
+[2/18/2020] [04:21:18.193] [10548]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/18/2020] [04:21:18.193] [10548]  [LoadingThread] [operator()]    updating progress
+[2/18/2020] [04:21:18.194] [10548]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/18/2020] [04:21:18.194] [10548]  [GenCacheFuncs] [Process]    opt
+[2/18/2020] [04:21:18.195] [10548]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/18/2020] [04:21:18.195] [10548]  [LoadingThread] [operator()]    updating progress
+[2/18/2020] [04:21:18.195] [10548]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/18/2020] [04:21:18.195] [10548]  [GenCacheFuncs] [Process]    save
+[2/18/2020] [04:21:18.196] [10548]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/18/2020] [04:21:18.196] [10548]  [LoadingThread] [operator()]    updating progress
+[2/18/2020] [04:21:18.196] [10548]  [GenCacheFuncs] [Process]  > Entering routine.
+[2/18/2020] [04:21:18.196] [10548]  [GenCacheFuncs] [Process]    default
+[2/18/2020] [04:21:18.196] [10548]  [GenCacheFuncs] [Process]  < Leaving routine.
+[2/18/2020] [04:21:18.387] [10548]  [LoadingThread] [operator()]  < Leaving routine.
+[2/18/2020] [04:21:18.390] [10536]  [Loading_DlgProc]    msg: WM_DESTROY.
+[2/18/2020] [04:21:18.392] [10536]  [GenCache]  < Leaving routine (true).
+[2/18/2020] [04:21:18.392] [10536]  [LoadLists]    performing random setup
+[2/18/2020] [04:21:18.404] [10536]  [LoadLists]    setting up filter-driver ranges
+[2/18/2020] [04:21:18.405] [10536]  [LoadLists]    driver ranges set
+[2/18/2020] [04:21:18.405] [10536]  [LoadLists]  < Exiting routine.
+[2/18/2020] [04:21:18.406] [10536]  [mainproc] [Main_OnInitDialog]    Lists loaded.
+[2/18/2020] [04:21:18.406] [10536]  [mainproc] [Main_OnInitDialog]    doing other stuff
+[2/18/2020] [04:21:18.434] [10536]  [mainproc] [Main_OnInitDialog]    updating at startup
+[2/18/2020] [04:21:18.434] [10536]  [UpdateLists]  > Entering routine.
+[2/18/2020] [04:21:18.435] [10536]  [UpdateLists]    g_updater null, found parent, creating dialog-box
+[2/18/2020] [04:21:18.444] [10536]  [UpdateLists_OnInitDialog]  > Entering routine.
+[2/18/2020] [04:21:18.445] [10536]  [UpdateLists_OnInitDialog]    spawning updatethread
+[2/18/2020] [04:21:18.445] [10536]  [UpdateThread] [UpdateThread]    created thread class
+[2/18/2020] [04:21:18.446] [10536]  [UpdateThread] [UpdateThread]    destroyed thread class
+[2/18/2020] [04:21:18.446] [10536]  [UpdateLists_OnInitDialog]  < Leaving routine.
+[2/18/2020] [04:21:18.448] [10560]  [UpdateThread] [_Process]    finished downloading updates
+[2/18/2020] [04:21:18.448] [10560]  [UpdateThread] [_Process]    starting countdown, since UpdateCountdown > 0
+[2/18/2020] [04:21:19.460] [10536]  [UpdateLists_OnTimer]  > Entering routine.
+[2/18/2020] [04:21:19.461] [10536]  [UpdateLists_OnTimer]  < Leaving routine.
+[2/18/2020] [04:21:19.462] [10536]  [UpdateLists_OnDestroy]  > Entering routine.
+[2/18/2020] [04:21:19.462] [10536]  [UpdateLists_OnDestroy]    loading lists
+[2/18/2020] [04:21:19.462] [10536]  [UpdateLists_OnDestroy]    resetting update-thread
+[2/18/2020] [04:21:19.462] [10536]  [UpdateLists_OnDestroy]    updating list columns
+[2/18/2020] [04:21:19.462] [10536]  [UpdateLists_OnDestroy]  < Leaving routine.
+[2/18/2020] [04:21:19.463] [10536]  [UpdateLists]    dialog box finished running
+[2/18/2020] [04:21:19.463] [10536]  [UpdateLists]    resetting LastUpdate time
+[2/18/2020] [04:21:19.463] [10536]  [UpdateLists]  < Leaving routine.
+[2/18/2020] [04:21:19.463] [10536]  [LoadLists]  > Entering routine.
+[2/18/2020] [04:21:19.463] [10536]  [LoadLists]    generating cache
+[2/18/2020] [04:21:19.463] [10536]  [GenCache]  > Entering routine.
+[2/18/2020] [04:21:19.464] [10536]  [GenCache]  < Leaving routine (false).
+[2/18/2020] [04:21:19.464] [10536]  [LoadLists]    loading lists
+[2/18/2020] [04:21:19.464] [10536]  [LoadLists]    performing random setup
+[2/18/2020] [04:21:19.476] [10536]  [LoadLists]    setting up filter-driver ranges
+[2/18/2020] [04:21:19.476] [10536]  [LoadLists]    driver ranges set
+[2/18/2020] [04:21:19.477] [10536]  [LoadLists]  < Exiting routine.
+[2/18/2020] [04:21:19.477] [10536]  Created main UI window
+[2/18/2020] [04:21:19.477] [10536]  [Configuration] [Save]  > Entering routine.
+[2/18/2020] [04:21:19.478] [10536]  [Configuration] [Save]  < Leaving routine.
+[2/18/2020] [04:21:19.479] [10536]  Starting message-loop
+[2/18/2020] [04:21:20.278] [10576]  [LogFilterAction] [operator()]    Stopping default Allowed Packet logging
+[2/18/2020] [04:21:33.078] [10536]  checking _tstat64
+[2/18/2020] [04:21:33.078] [10536]  checking filesize against user
+[2/18/2020] [15:01:48.092] [10536]  checking _tstat64
+[2/18/2020] [15:01:48.092] [10536]  checking filesize against user
+[2/18/2020] [18:20:32.057] [10536]  [Main_DlgProc]    received WM_MAIN_VISIBLE message
+[2/18/2020] [18:20:32.057] [10536]  [Main_OnVisible]  > Entering routine.
+[2/18/2020] [18:20:32.057] [10536]  [Main_OnVisible]    visible:[TRUE]
+[2/18/2020] [18:20:32.057] [10536]  [Main_OnVisible]    index != [-1], showing window based on tab
+[2/18/2020] [18:20:32.057] [10536]  [Main_OnVisible]    showing window (SH_SHOW)
+[2/18/2020] [18:20:32.100] [10536]  [Main_OnVisible]    checking for g_trayactive and g_config.StayHidden
+[2/18/2020] [18:20:32.100] [10536]  [Main_OnVisible]  < Leaving routine.
+[2/18/2020] [18:20:32.160] [10536]  [Main_OnTray]  > Checking to see if our window is on top
+[2/18/2020] [18:20:32.160] [10536]  [Main_OnTray]    rect:[683, 322][1235, 726] desktop:[1920 x 1080]
+[2/18/2020] [18:20:32.187] [10536]  [Main_OnTray]  < Finished checking to see if our window is on top
+[2/18/2020] [18:20:32.187] [10536]  [Main_DlgProc]    received WM_MAIN_VISIBLE message
+[2/18/2020] [18:20:32.187] [10536]  [Main_OnVisible]  > Entering routine.
+[2/18/2020] [18:20:32.187] [10536]  [Main_OnVisible]    visible:[FALSE]
+[2/18/2020] [18:20:32.187] [10536]  [Main_OnVisible]    index != [-1], hiding window based on tab
+[2/18/2020] [18:20:32.188] [10536]  [Main_OnVisible]    about to hide window
+[2/18/2020] [18:20:32.189] [10536]  [Main_OnVisible]    about to SetProcessWorkingSetSize
+[2/18/2020] [18:20:32.192] [10536]  [Main_OnVisible]  < Leaving routine.
+[2/18/2020] [18:20:32.856] [10536]  [Main_DlgProc]    received WM_MAIN_VISIBLE message
+[2/18/2020] [18:20:32.856] [10536]  [Main_OnVisible]  > Entering routine.
+[2/18/2020] [18:20:32.856] [10536]  [Main_OnVisible]    visible:[TRUE]
+[2/18/2020] [18:20:32.856] [10536]  [Main_OnVisible]    index != [-1], showing window based on tab
+[2/18/2020] [18:20:32.856] [10536]  [Main_OnVisible]    showing window (SH_SHOW)
+[2/18/2020] [18:20:32.863] [10536]  [Main_OnVisible]    checking for g_trayactive and g_config.StayHidden
+[2/18/2020] [18:20:32.863] [10536]  [Main_OnVisible]  < Leaving routine.
+[2/18/2020] [18:21:53.926] [10536]  [LogProc] [Log_OnCommand]    Block/Enable HTTP button
+[2/18/2020] [18:21:53.926] [10536]  [mainproc] [SetBlockHttp]   setting PeerBlock HTTP blocking from [1] to [0]
+[2/18/2020] [18:21:53.926] [10536]  [pbfilter_base] [setdestinationports]  > Entering routine.
+[2/18/2020] [18:21:53.926] [10536]  [pbfilter_base] [setdestinationports]    ...iter...
+[2/18/2020] [18:21:53.926] [10536]  [pbfilter_base] [setdestinationports]    ...iter...
+[2/18/2020] [18:21:53.926] [10536]  [pbfilter_base] [setdestinationports]    finished parsing ports
+[2/18/2020] [18:21:53.926] [10536]  [pbfilter_base] [setdestinationports]  < Leaving Routine.
+[2/18/2020] [18:21:53.929] [10536]  [mainproc] [SetBlockHttp]    cancelling temp-http timer

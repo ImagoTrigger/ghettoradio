@@ -36,5 +36,5 @@ my $bw = File::ReadBackwards->new( "R:\\scanner\\altacast\\40D.txt" ) or die "ca
 my $ramseytsbs = $bw->readline;
 $ramseytsbs =~ s/\s//gi;
 $bw->close;
-
-print "$time,$temp,$memused,$count,$length,$ups,$rx,$tx,$anokatsbs,$ramseytsbs\n";
+my $armed = (-e "D:\\security.disarmed") ? 0 : 1;
+print "$time,$temp,$memused,$count,$length,$ups,$rx,$tx,$anokatsbs,$ramseytsbs,$armed\n";
